@@ -7,6 +7,7 @@ import androidx.compose.material3.NavigationRail
 import androidx.compose.material3.NavigationRailItem
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.foundation.layout.ColumnScope
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.vector.ImageVector
 
@@ -39,7 +40,7 @@ fun BrittaNavRail(
     selectedId: String,
     onSelect: (String) -> Unit,
     modifier: Modifier = Modifier,
-    header: @Composable (() -> Unit)? = null,
+    header: @Composable (ColumnScope.() -> Unit)? = null,
 ) {
     require(destinations.isNotEmpty()) { "BrittaNavRail requires at least one destination." }
     NavigationRail(modifier = modifier, header = header) {

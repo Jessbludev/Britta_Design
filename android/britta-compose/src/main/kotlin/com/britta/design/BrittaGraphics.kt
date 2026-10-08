@@ -26,6 +26,7 @@ import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.asComposeRenderEffect
 import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.graphics.graphicsLayer
+import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 
@@ -140,12 +141,12 @@ fun BrittaShaderSurface(
         modifier.graphicsLayer {
             shader.setFloatUniform("time", time)
             shader.setFloatUniform("intensity", intensity)
-            shader.setColorUniform("primary", scheme.primary)
-            shader.setColorUniform("secondary", scheme.secondary)
-            shader.setColorUniform("tertiary", scheme.tertiary)
-            shader.setColorUniform("surface", scheme.surface)
-            shader.setColorUniform("onSurface", scheme.onSurface)
-            shader.setColorUniform("container", scheme.primaryContainer)
+            shader.setColorUniform("primary", scheme.primary.toArgb())
+            shader.setColorUniform("secondary", scheme.secondary.toArgb())
+            shader.setColorUniform("tertiary", scheme.tertiary.toArgb())
+            shader.setColorUniform("surface", scheme.surface.toArgb())
+            shader.setColorUniform("onSurface", scheme.onSurface.toArgb())
+            shader.setColorUniform("container", scheme.primaryContainer.toArgb())
             renderEffect = RenderEffect
                 .createRuntimeShaderEffect(shader, "el")
                 .asComposeRenderEffect()
