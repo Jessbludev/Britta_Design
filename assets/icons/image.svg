@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="24" height="24" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" shape-rendering="geometricPrecision">
+  <title>Image</title>
+  <path d="M6 5H18Q20 5 20 7V17Q20 19 18 19H6Q4 19 4 17V7Q4 5 6 5Z M7.5 10a1.5,1.5 0 1,0 3.0,0a1.5,1.5 0 1,0 -3.0,0 M5 17L10 12L13 15L15 13L19 17Z" fill="none" stroke="#1D2433" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" vector-effect="non-scaling-stroke"/>
+</svg>

@@ -1,0 +1,25 @@
+uniform float2 size;
+uniform float time;
+uniform half4 primary;
+uniform half4 secondary;
+uniform half4 tertiary;
+uniform half4 surface;
+uniform half4 onSurface;
+uniform half4 container;
+uniform float2 mouse;
+uniform float intensity;
+
+half4 main(float2 fragCoord) {
+  float2 uv = fragCoord / size;
+  float cell = 14.0;
+  float2 grid = fragCoord / cell;
+  float2 cellUv = fract(grid) - 0.5;
+  float tone = mix(0.15, 0.82, uv.x * 0.65 + uv.y * 0.35);
+  tone = mix(tone, 0.5 + 0.5 * sin(uv.x * 6.0 + time * 0.4), 0.18);
+  float r = mix(0.08, 0.48, tone) * intensity;
+  float dotp = smoothstep(r, r - 0.04, length(cellUv));
+  half3 paper = mix(surface.rgb, container.rgb, 0.25);
+  half3 ink = mix(onSurface.rgb, primary.rgb, 0.55);
+  half3 col = mix(paper, ink, 1.0 - dotp);
+  return half4(col, 1.0);
+}

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="24" height="24" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" shape-rendering="geometricPrecision">
+  <title>Verified</title>
+  <path d="M12 3L15 5L19 5L19 9L21 12L19 15L19 19L15 19L12 21L9 19L5 19L5 15L3 12L5 9L5 5L9 5Z M8 12L11 15 M11 15L17 9" fill="#526DFF" stroke="#1D2433" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" vector-effect="non-scaling-stroke"/>
+</svg>

@@ -1,0 +1,26 @@
+uniform float2 size;
+uniform float time;
+uniform half4 primary;
+uniform half4 secondary;
+uniform half4 tertiary;
+uniform half4 surface;
+uniform half4 onSurface;
+uniform half4 container;
+uniform float2 mouse;
+uniform float intensity;
+
+float hash(float2 p) { return fract(sin(dot(p, float2(127.1, 311.7))) * 43758.5453); }
+half4 main(float2 fragCoord) {
+  float2 uv = fragCoord / size;
+  float2 w = uv + 0.045 * float2(
+    sin(uv.y * 4.2 + time * 0.22),
+    cos(uv.x * 3.6 + time * 0.18)
+  );
+  half3 a = mix(surface.rgb, primary.rgb, 0.55);
+  half3 b = mix(container.rgb, secondary.rgb, 0.62);
+  half3 c = mix(surface.rgb, tertiary.rgb, 0.48);
+  half3 d = mix(container.rgb, primary.rgb, 0.18);
+  half3 col = mix(mix(a, b, w.x), mix(c, d, w.x), w.y);
+  col += (hash(fragCoord) - 0.5) * 0.025 * intensity;
+  return half4(col, 1.0);
+}

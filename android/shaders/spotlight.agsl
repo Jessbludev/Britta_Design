@@ -1,0 +1,22 @@
+uniform float2 size;
+uniform float time;
+uniform half4 primary;
+uniform half4 secondary;
+uniform half4 tertiary;
+uniform half4 surface;
+uniform half4 onSurface;
+uniform half4 container;
+uniform float2 mouse;
+uniform float intensity;
+
+half4 main(float2 fragCoord) {
+  float2 uv = fragCoord / size;
+  float2 m = mouse.x + mouse.y > 0.0 ? mouse : float2(0.62, 0.38);
+  float d = distance(uv, m);
+  float spot = smoothstep(0.55 * intensity + 0.15, 0.02, d);
+  half3 base = mix(surface.rgb, container.rgb, 0.4 + uv.y * 0.2);
+  half3 lit = mix(base, mix(primary.rgb, container.rgb, 0.35), spot * 0.72);
+  float rim = smoothstep(0.22, 0.0, abs(d - 0.18));
+  lit += secondary.rgb * rim * 0.12 * intensity;
+  return half4(lit, 1.0);
+}

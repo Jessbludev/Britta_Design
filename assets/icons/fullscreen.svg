@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="24" height="24" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" shape-rendering="geometricPrecision">
+  <title>Fullscreen</title>
+  <path d="M9 4L4 4 M4 4L4 9 M15 4L20 4 M20 4L20 9 M4 15L4 20 M4 20L9 20 M20 15L20 20 M20 20L15 20" fill="none" stroke="#1D2433" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" vector-effect="non-scaling-stroke"/>
+</svg>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="24" height="24" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" shape-rendering="geometricPrecision">
+  <title>Qr Code</title>
+  <path d="M4 4H9V9H4Z M15 4H20V9H15Z M4 15H9V20H4Z M15 15H18V18H15Z M19 19H21V21H19Z M12 12L12 14 M14 12L14 13" fill="none" stroke="#1D2433" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" vector-effect="non-scaling-stroke"/>
+</svg>

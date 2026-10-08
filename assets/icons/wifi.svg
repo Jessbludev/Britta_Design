@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="24" height="24" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" shape-rendering="geometricPrecision">
+  <title>Wifi</title>
+  <path d="M3 9A14 14 0 0 1 21 9 M6 13A9 9 0 0 1 18 13 M9 17A4 4 0 0 1 15 17 M11 20a1,1 0 1,0 2,0a1,1 0 1,0 -2,0" fill="none" stroke="#1D2433" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" vector-effect="non-scaling-stroke"/>
+</svg>

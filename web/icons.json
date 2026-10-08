@@ -1,0 +1,3370 @@
+{
+  "family": "Material Symbols",
+  "axes": {
+    "fill": [
+      0,
+      1
+    ],
+    "weight": [
+      100,
+      700
+    ],
+    "grade": [
+      -25,
+      200
+    ],
+    "opsz": [
+      20,
+      48
+    ]
+  },
+  "styles": [
+    "outlined",
+    "rounded",
+    "sharp"
+  ],
+  "pack": "all",
+  "icons": [
+    {
+      "name": "home",
+      "label": "Home",
+      "category": "navigation",
+      "packs": [
+        "core",
+        "navigation"
+      ],
+      "compose": "Icons.Outlined.Home"
+    },
+    {
+      "name": "search",
+      "label": "Search",
+      "category": "actions",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.Search"
+    },
+    {
+      "name": "settings",
+      "label": "Settings",
+      "category": "ui",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.Settings"
+    },
+    {
+      "name": "menu",
+      "label": "Menu",
+      "category": "navigation",
+      "packs": [
+        "core",
+        "navigation"
+      ],
+      "compose": "Icons.Outlined.Menu"
+    },
+    {
+      "name": "close",
+      "label": "Close",
+      "category": "actions",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.Close"
+    },
+    {
+      "name": "add",
+      "label": "Add",
+      "category": "actions",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.Add"
+    },
+    {
+      "name": "remove",
+      "label": "Remove",
+      "category": "actions",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.Remove"
+    },
+    {
+      "name": "check",
+      "label": "Check",
+      "category": "actions",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.Check"
+    },
+    {
+      "name": "check_circle",
+      "label": "Check circle",
+      "category": "actions",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.CheckCircle"
+    },
+    {
+      "name": "cancel",
+      "label": "Cancel",
+      "category": "actions",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.Cancel"
+    },
+    {
+      "name": "edit",
+      "label": "Edit",
+      "category": "actions",
+      "packs": [
+        "core",
+        "editor"
+      ],
+      "compose": "Icons.Outlined.Edit"
+    },
+    {
+      "name": "delete",
+      "label": "Delete",
+      "category": "actions",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.Delete"
+    },
+    {
+      "name": "share",
+      "label": "Share",
+      "category": "actions",
+      "packs": [
+        "core",
+        "social"
+      ],
+      "compose": "Icons.Outlined.Share"
+    },
+    {
+      "name": "download",
+      "label": "Download",
+      "category": "actions",
+      "packs": [
+        "core",
+        "files"
+      ],
+      "compose": "Icons.Outlined.Download"
+    },
+    {
+      "name": "upload",
+      "label": "Upload",
+      "category": "actions",
+      "packs": [
+        "core",
+        "files"
+      ],
+      "compose": "Icons.Outlined.Upload"
+    },
+    {
+      "name": "content_copy",
+      "label": "Copy",
+      "category": "actions",
+      "packs": [
+        "core",
+        "editor"
+      ],
+      "compose": "Icons.Outlined.ContentCopy"
+    },
+    {
+      "name": "content_cut",
+      "label": "Cut",
+      "category": "actions",
+      "packs": [
+        "editor"
+      ],
+      "compose": "Icons.Outlined.ContentCut"
+    },
+    {
+      "name": "content_paste",
+      "label": "Paste",
+      "category": "actions",
+      "packs": [
+        "editor"
+      ],
+      "compose": "Icons.Outlined.ContentPaste"
+    },
+    {
+      "name": "refresh",
+      "label": "Refresh",
+      "category": "actions",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.Refresh"
+    },
+    {
+      "name": "sync",
+      "label": "Sync",
+      "category": "actions",
+      "packs": [
+        "core",
+        "files"
+      ],
+      "compose": "Icons.Outlined.Sync"
+    },
+    {
+      "name": "save",
+      "label": "Save",
+      "category": "actions",
+      "packs": [
+        "core",
+        "files"
+      ],
+      "compose": "Icons.Outlined.Save"
+    },
+    {
+      "name": "done",
+      "label": "Done",
+      "category": "actions",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.Done"
+    },
+    {
+      "name": "add_circle",
+      "label": "Add circle",
+      "category": "actions",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.AddCircle"
+    },
+    {
+      "name": "filter_list",
+      "label": "Filter",
+      "category": "actions",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.FilterList"
+    },
+    {
+      "name": "sort",
+      "label": "Sort",
+      "category": "actions",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.Sort"
+    },
+    {
+      "name": "tune",
+      "label": "Tune",
+      "category": "actions",
+      "packs": [
+        "core",
+        "graphics"
+      ],
+      "compose": "Icons.Outlined.Tune"
+    },
+    {
+      "name": "more_vert",
+      "label": "More vertical",
+      "category": "ui",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.MoreVert"
+    },
+    {
+      "name": "more_horiz",
+      "label": "More horizontal",
+      "category": "ui",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.MoreHoriz"
+    },
+    {
+      "name": "favorite",
+      "label": "Favorite",
+      "category": "actions",
+      "packs": [
+        "core",
+        "social",
+        "health"
+      ],
+      "compose": "Icons.Outlined.Favorite"
+    },
+    {
+      "name": "star",
+      "label": "Star",
+      "category": "actions",
+      "packs": [
+        "core",
+        "social"
+      ],
+      "compose": "Icons.Outlined.Star"
+    },
+    {
+      "name": "bookmark",
+      "label": "Bookmark",
+      "category": "actions",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.Bookmark"
+    },
+    {
+      "name": "flag",
+      "label": "Flag",
+      "category": "actions",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.Flag"
+    },
+    {
+      "name": "push_pin",
+      "label": "Pin",
+      "category": "actions",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.PushPin"
+    },
+    {
+      "name": "label",
+      "label": "Label",
+      "category": "actions",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.Label"
+    },
+    {
+      "name": "link",
+      "label": "Link",
+      "category": "actions",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.Link"
+    },
+    {
+      "name": "open_in_new",
+      "label": "Open in new",
+      "category": "navigation",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.OpenInNew"
+    },
+    {
+      "name": "login",
+      "label": "Login",
+      "category": "actions",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.Login"
+    },
+    {
+      "name": "logout",
+      "label": "Logout",
+      "category": "actions",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.Logout"
+    },
+    {
+      "name": "undo",
+      "label": "Undo",
+      "category": "actions",
+      "packs": [
+        "editor"
+      ],
+      "compose": "Icons.Outlined.Undo"
+    },
+    {
+      "name": "redo",
+      "label": "Redo",
+      "category": "actions",
+      "packs": [
+        "editor"
+      ],
+      "compose": "Icons.Outlined.Redo"
+    },
+    {
+      "name": "print",
+      "label": "Print",
+      "category": "actions",
+      "packs": [
+        "devices"
+      ],
+      "compose": "Icons.Outlined.Print"
+    },
+    {
+      "name": "zoom_in",
+      "label": "Zoom in",
+      "category": "actions",
+      "packs": [
+        "graphics"
+      ],
+      "compose": "Icons.Outlined.ZoomIn"
+    },
+    {
+      "name": "zoom_out",
+      "label": "Zoom out",
+      "category": "actions",
+      "packs": [
+        "graphics"
+      ],
+      "compose": "Icons.Outlined.ZoomOut"
+    },
+    {
+      "name": "fullscreen",
+      "label": "Fullscreen",
+      "category": "actions",
+      "packs": [
+        "media"
+      ],
+      "compose": "Icons.Outlined.Fullscreen"
+    },
+    {
+      "name": "fullscreen_exit",
+      "label": "Exit fullscreen",
+      "category": "actions",
+      "packs": [
+        "media"
+      ],
+      "compose": "Icons.Outlined.FullscreenExit"
+    },
+    {
+      "name": "shopping_cart",
+      "label": "Cart",
+      "category": "actions",
+      "packs": [
+        "finance"
+      ],
+      "compose": "Icons.Outlined.ShoppingCart"
+    },
+    {
+      "name": "credit_card",
+      "label": "Card",
+      "category": "finance",
+      "packs": [
+        "finance"
+      ],
+      "compose": "Icons.Outlined.CreditCard"
+    },
+    {
+      "name": "rocket_launch",
+      "label": "Launch",
+      "category": "actions",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.RocketLaunch"
+    },
+    {
+      "name": "bolt",
+      "label": "Bolt",
+      "category": "ui",
+      "packs": [
+        "graphics"
+      ],
+      "compose": "Icons.Outlined.Bolt"
+    },
+    {
+      "name": "build",
+      "label": "Build",
+      "category": "ui",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.Build"
+    },
+    {
+      "name": "extension",
+      "label": "Extension",
+      "category": "ui",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.Extension"
+    },
+    {
+      "name": "drag_indicator",
+      "label": "Drag",
+      "category": "ui",
+      "packs": [
+        "editor"
+      ],
+      "compose": "Icons.Outlined.DragIndicator"
+    },
+    {
+      "name": "swap_vert",
+      "label": "Swap vertical",
+      "category": "actions",
+      "packs": [
+        "navigation"
+      ],
+      "compose": "Icons.Outlined.SwapVert"
+    },
+    {
+      "name": "swap_horiz",
+      "label": "Swap horizontal",
+      "category": "actions",
+      "packs": [
+        "navigation"
+      ],
+      "compose": "Icons.Outlined.SwapHoriz"
+    },
+    {
+      "name": "north",
+      "label": "North",
+      "category": "navigation",
+      "packs": [
+        "navigation"
+      ],
+      "compose": "Icons.Outlined.North"
+    },
+    {
+      "name": "south",
+      "label": "South",
+      "category": "navigation",
+      "packs": [
+        "navigation"
+      ],
+      "compose": "Icons.Outlined.South"
+    },
+    {
+      "name": "expand",
+      "label": "Expand",
+      "category": "navigation",
+      "packs": [
+        "navigation"
+      ],
+      "compose": "Icons.Outlined.Expand"
+    },
+    {
+      "name": "compress",
+      "label": "Compress",
+      "category": "navigation",
+      "packs": [
+        "navigation"
+      ],
+      "compose": "Icons.Outlined.Compress"
+    },
+    {
+      "name": "qr_code_2",
+      "label": "QR code",
+      "category": "actions",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.QrCode2"
+    },
+    {
+      "name": "local_offer",
+      "label": "Offer",
+      "category": "actions",
+      "packs": [
+        "finance"
+      ],
+      "compose": "Icons.Outlined.LocalOffer"
+    },
+    {
+      "name": "arrow_back",
+      "label": "Arrow back",
+      "category": "navigation",
+      "packs": [
+        "core",
+        "navigation"
+      ],
+      "compose": "Icons.Outlined.ArrowBack"
+    },
+    {
+      "name": "arrow_forward",
+      "label": "Arrow forward",
+      "category": "navigation",
+      "packs": [
+        "core",
+        "navigation"
+      ],
+      "compose": "Icons.Outlined.ArrowForward"
+    },
+    {
+      "name": "arrow_upward",
+      "label": "Arrow up",
+      "category": "navigation",
+      "packs": [
+        "navigation"
+      ],
+      "compose": "Icons.Outlined.ArrowUpward"
+    },
+    {
+      "name": "arrow_downward",
+      "label": "Arrow down",
+      "category": "navigation",
+      "packs": [
+        "navigation"
+      ],
+      "compose": "Icons.Outlined.ArrowDownward"
+    },
+    {
+      "name": "chevron_left",
+      "label": "Chevron left",
+      "category": "navigation",
+      "packs": [
+        "navigation"
+      ],
+      "compose": "Icons.Outlined.ChevronLeft"
+    },
+    {
+      "name": "chevron_right",
+      "label": "Chevron right",
+      "category": "navigation",
+      "packs": [
+        "core",
+        "navigation"
+      ],
+      "compose": "Icons.Outlined.ChevronRight"
+    },
+    {
+      "name": "expand_more",
+      "label": "Expand more",
+      "category": "navigation",
+      "packs": [
+        "core",
+        "navigation"
+      ],
+      "compose": "Icons.Outlined.ExpandMore"
+    },
+    {
+      "name": "expand_less",
+      "label": "Expand less",
+      "category": "navigation",
+      "packs": [
+        "navigation"
+      ],
+      "compose": "Icons.Outlined.ExpandLess"
+    },
+    {
+      "name": "first_page",
+      "label": "First page",
+      "category": "navigation",
+      "packs": [
+        "navigation"
+      ],
+      "compose": "Icons.Outlined.FirstPage"
+    },
+    {
+      "name": "last_page",
+      "label": "Last page",
+      "category": "navigation",
+      "packs": [
+        "navigation"
+      ],
+      "compose": "Icons.Outlined.LastPage"
+    },
+    {
+      "name": "subdirectory_arrow_right",
+      "label": "Nested",
+      "category": "navigation",
+      "packs": [
+        "navigation"
+      ],
+      "compose": "Icons.Outlined.SubdirectoryArrowRight"
+    },
+    {
+      "name": "apps",
+      "label": "Apps",
+      "category": "navigation",
+      "packs": [
+        "core",
+        "navigation"
+      ],
+      "compose": "Icons.Outlined.Apps"
+    },
+    {
+      "name": "space_dashboard",
+      "label": "Dashboard",
+      "category": "ui",
+      "packs": [
+        "core",
+        "navigation"
+      ],
+      "compose": "Icons.Outlined.SpaceDashboard"
+    },
+    {
+      "name": "grid_view",
+      "label": "Grid",
+      "category": "ui",
+      "packs": [
+        "core",
+        "navigation"
+      ],
+      "compose": "Icons.Outlined.GridView"
+    },
+    {
+      "name": "view_list",
+      "label": "List",
+      "category": "ui",
+      "packs": [
+        "core",
+        "navigation"
+      ],
+      "compose": "Icons.Outlined.ViewList"
+    },
+    {
+      "name": "view_module",
+      "label": "Modules",
+      "category": "ui",
+      "packs": [
+        "navigation"
+      ],
+      "compose": "Icons.Outlined.ViewModule"
+    },
+    {
+      "name": "view_quilt",
+      "label": "Quilt",
+      "category": "ui",
+      "packs": [
+        "navigation"
+      ],
+      "compose": "Icons.Outlined.ViewQuilt"
+    },
+    {
+      "name": "tab",
+      "label": "Tab",
+      "category": "navigation",
+      "packs": [
+        "navigation"
+      ],
+      "compose": "Icons.Outlined.Tab"
+    },
+    {
+      "name": "near_me",
+      "label": "Near me",
+      "category": "places",
+      "packs": [
+        "navigation",
+        "travel"
+      ],
+      "compose": "Icons.Outlined.NearMe"
+    },
+    {
+      "name": "person",
+      "label": "Person",
+      "category": "communication",
+      "packs": [
+        "core",
+        "social"
+      ],
+      "compose": "Icons.Outlined.Person"
+    },
+    {
+      "name": "person_add",
+      "label": "Add person",
+      "category": "communication",
+      "packs": [
+        "social"
+      ],
+      "compose": "Icons.Outlined.PersonAdd"
+    },
+    {
+      "name": "group",
+      "label": "Group",
+      "category": "communication",
+      "packs": [
+        "social"
+      ],
+      "compose": "Icons.Outlined.Group"
+    },
+    {
+      "name": "groups",
+      "label": "Groups",
+      "category": "communication",
+      "packs": [
+        "social"
+      ],
+      "compose": "Icons.Outlined.Groups"
+    },
+    {
+      "name": "account_circle",
+      "label": "Account",
+      "category": "communication",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.AccountCircle"
+    },
+    {
+      "name": "manage_accounts",
+      "label": "Manage accounts",
+      "category": "ui",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.ManageAccounts"
+    },
+    {
+      "name": "mail",
+      "label": "Mail",
+      "category": "communication",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.Mail"
+    },
+    {
+      "name": "chat",
+      "label": "Chat",
+      "category": "communication",
+      "packs": [
+        "core",
+        "social"
+      ],
+      "compose": "Icons.Outlined.Chat"
+    },
+    {
+      "name": "forum",
+      "label": "Forum",
+      "category": "communication",
+      "packs": [
+        "social"
+      ],
+      "compose": "Icons.Outlined.Forum"
+    },
+    {
+      "name": "send",
+      "label": "Send",
+      "category": "communication",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.Send"
+    },
+    {
+      "name": "notifications",
+      "label": "Notifications",
+      "category": "communication",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.Notifications"
+    },
+    {
+      "name": "notifications_off",
+      "label": "Notifications off",
+      "category": "communication",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.NotificationsOff"
+    },
+    {
+      "name": "call",
+      "label": "Call",
+      "category": "communication",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.Call"
+    },
+    {
+      "name": "videocam",
+      "label": "Video call",
+      "category": "communication",
+      "packs": [
+        "media"
+      ],
+      "compose": "Icons.Outlined.Videocam"
+    },
+    {
+      "name": "alternate_email",
+      "label": "Mention",
+      "category": "communication",
+      "packs": [
+        "social"
+      ],
+      "compose": "Icons.Outlined.AlternateEmail"
+    },
+    {
+      "name": "contacts",
+      "label": "Contacts",
+      "category": "communication",
+      "packs": [
+        "social"
+      ],
+      "compose": "Icons.Outlined.Contacts"
+    },
+    {
+      "name": "inbox",
+      "label": "Inbox",
+      "category": "communication",
+      "packs": [
+        "files"
+      ],
+      "compose": "Icons.Outlined.Inbox"
+    },
+    {
+      "name": "drafts",
+      "label": "Drafts",
+      "category": "communication",
+      "packs": [
+        "files"
+      ],
+      "compose": "Icons.Outlined.Drafts"
+    },
+    {
+      "name": "sms",
+      "label": "SMS",
+      "category": "communication",
+      "packs": [
+        "social"
+      ],
+      "compose": "Icons.Outlined.Sms"
+    },
+    {
+      "name": "campaign",
+      "label": "Campaign",
+      "category": "social",
+      "packs": [
+        "social"
+      ],
+      "compose": "Icons.Outlined.Campaign"
+    },
+    {
+      "name": "support_agent",
+      "label": "Support",
+      "category": "communication",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.SupportAgent"
+    },
+    {
+      "name": "play_arrow",
+      "label": "Play",
+      "category": "media",
+      "packs": [
+        "core",
+        "media"
+      ],
+      "compose": "Icons.Outlined.PlayArrow"
+    },
+    {
+      "name": "pause",
+      "label": "Pause",
+      "category": "media",
+      "packs": [
+        "media"
+      ],
+      "compose": "Icons.Outlined.Pause"
+    },
+    {
+      "name": "stop",
+      "label": "Stop",
+      "category": "media",
+      "packs": [
+        "media"
+      ],
+      "compose": "Icons.Outlined.Stop"
+    },
+    {
+      "name": "skip_next",
+      "label": "Skip next",
+      "category": "media",
+      "packs": [
+        "media"
+      ],
+      "compose": "Icons.Outlined.SkipNext"
+    },
+    {
+      "name": "skip_previous",
+      "label": "Skip previous",
+      "category": "media",
+      "packs": [
+        "media"
+      ],
+      "compose": "Icons.Outlined.SkipPrevious"
+    },
+    {
+      "name": "fast_forward",
+      "label": "Fast forward",
+      "category": "media",
+      "packs": [
+        "media"
+      ],
+      "compose": "Icons.Outlined.FastForward"
+    },
+    {
+      "name": "fast_rewind",
+      "label": "Rewind",
+      "category": "media",
+      "packs": [
+        "media"
+      ],
+      "compose": "Icons.Outlined.FastRewind"
+    },
+    {
+      "name": "replay",
+      "label": "Replay",
+      "category": "media",
+      "packs": [
+        "media"
+      ],
+      "compose": "Icons.Outlined.Replay"
+    },
+    {
+      "name": "volume_up",
+      "label": "Volume",
+      "category": "media",
+      "packs": [
+        "media"
+      ],
+      "compose": "Icons.Outlined.VolumeUp"
+    },
+    {
+      "name": "volume_down",
+      "label": "Volume down",
+      "category": "media",
+      "packs": [
+        "media"
+      ],
+      "compose": "Icons.Outlined.VolumeDown"
+    },
+    {
+      "name": "volume_off",
+      "label": "Mute",
+      "category": "media",
+      "packs": [
+        "media"
+      ],
+      "compose": "Icons.Outlined.VolumeOff"
+    },
+    {
+      "name": "mic",
+      "label": "Mic",
+      "category": "media",
+      "packs": [
+        "media"
+      ],
+      "compose": "Icons.Outlined.Mic"
+    },
+    {
+      "name": "mic_off",
+      "label": "Mic off",
+      "category": "media",
+      "packs": [
+        "media"
+      ],
+      "compose": "Icons.Outlined.MicOff"
+    },
+    {
+      "name": "image",
+      "label": "Image",
+      "category": "media",
+      "packs": [
+        "media",
+        "graphics"
+      ],
+      "compose": "Icons.Outlined.Image"
+    },
+    {
+      "name": "photo_camera",
+      "label": "Camera",
+      "category": "media",
+      "packs": [
+        "media",
+        "devices"
+      ],
+      "compose": "Icons.Outlined.PhotoCamera"
+    },
+    {
+      "name": "photo_library",
+      "label": "Library",
+      "category": "media",
+      "packs": [
+        "media"
+      ],
+      "compose": "Icons.Outlined.PhotoLibrary"
+    },
+    {
+      "name": "movie",
+      "label": "Movie",
+      "category": "media",
+      "packs": [
+        "media"
+      ],
+      "compose": "Icons.Outlined.Movie"
+    },
+    {
+      "name": "music_note",
+      "label": "Music",
+      "category": "media",
+      "packs": [
+        "media"
+      ],
+      "compose": "Icons.Outlined.MusicNote"
+    },
+    {
+      "name": "headphones",
+      "label": "Headphones",
+      "category": "media",
+      "packs": [
+        "media",
+        "devices"
+      ],
+      "compose": "Icons.Outlined.Headphones"
+    },
+    {
+      "name": "equalizer",
+      "label": "Equalizer",
+      "category": "media",
+      "packs": [
+        "media",
+        "graphics"
+      ],
+      "compose": "Icons.Outlined.Equalizer"
+    },
+    {
+      "name": "album",
+      "label": "Album",
+      "category": "media",
+      "packs": [
+        "media"
+      ],
+      "compose": "Icons.Outlined.Album"
+    },
+    {
+      "name": "playlist_play",
+      "label": "Playlist",
+      "category": "media",
+      "packs": [
+        "media"
+      ],
+      "compose": "Icons.Outlined.PlaylistPlay"
+    },
+    {
+      "name": "shuffle",
+      "label": "Shuffle",
+      "category": "media",
+      "packs": [
+        "media"
+      ],
+      "compose": "Icons.Outlined.Shuffle"
+    },
+    {
+      "name": "repeat",
+      "label": "Repeat",
+      "category": "media",
+      "packs": [
+        "media"
+      ],
+      "compose": "Icons.Outlined.Repeat"
+    },
+    {
+      "name": "closed_caption",
+      "label": "Captions",
+      "category": "media",
+      "packs": [
+        "media"
+      ],
+      "compose": "Icons.Outlined.ClosedCaption"
+    },
+    {
+      "name": "fiber_manual_record",
+      "label": "Record",
+      "category": "media",
+      "packs": [
+        "media"
+      ],
+      "compose": "Icons.Outlined.FiberManualRecord"
+    },
+    {
+      "name": "podcasts",
+      "label": "Podcasts",
+      "category": "media",
+      "packs": [
+        "media"
+      ],
+      "compose": "Icons.Outlined.Podcasts"
+    },
+    {
+      "name": "location_on",
+      "label": "Location",
+      "category": "places",
+      "packs": [
+        "travel",
+        "navigation"
+      ],
+      "compose": "Icons.Outlined.LocationOn"
+    },
+    {
+      "name": "map",
+      "label": "Map",
+      "category": "places",
+      "packs": [
+        "travel"
+      ],
+      "compose": "Icons.Outlined.Map"
+    },
+    {
+      "name": "explore",
+      "label": "Explore",
+      "category": "places",
+      "packs": [
+        "travel",
+        "navigation"
+      ],
+      "compose": "Icons.Outlined.Explore"
+    },
+    {
+      "name": "public",
+      "label": "Public",
+      "category": "places",
+      "packs": [
+        "social",
+        "travel"
+      ],
+      "compose": "Icons.Outlined.Public"
+    },
+    {
+      "name": "flight",
+      "label": "Flight",
+      "category": "places",
+      "packs": [
+        "travel"
+      ],
+      "compose": "Icons.Outlined.Flight"
+    },
+    {
+      "name": "hotel",
+      "label": "Hotel",
+      "category": "places",
+      "packs": [
+        "travel"
+      ],
+      "compose": "Icons.Outlined.Hotel"
+    },
+    {
+      "name": "restaurant",
+      "label": "Restaurant",
+      "category": "places",
+      "packs": [
+        "travel"
+      ],
+      "compose": "Icons.Outlined.Restaurant"
+    },
+    {
+      "name": "local_cafe",
+      "label": "Cafe",
+      "category": "places",
+      "packs": [
+        "travel"
+      ],
+      "compose": "Icons.Outlined.LocalCafe"
+    },
+    {
+      "name": "directions_car",
+      "label": "Car",
+      "category": "places",
+      "packs": [
+        "travel"
+      ],
+      "compose": "Icons.Outlined.DirectionsCar"
+    },
+    {
+      "name": "directions_bus",
+      "label": "Bus",
+      "category": "places",
+      "packs": [
+        "travel"
+      ],
+      "compose": "Icons.Outlined.DirectionsBus"
+    },
+    {
+      "name": "directions_bike",
+      "label": "Bike",
+      "category": "places",
+      "packs": [
+        "travel"
+      ],
+      "compose": "Icons.Outlined.DirectionsBike"
+    },
+    {
+      "name": "directions_walk",
+      "label": "Walk",
+      "category": "places",
+      "packs": [
+        "travel"
+      ],
+      "compose": "Icons.Outlined.DirectionsWalk"
+    },
+    {
+      "name": "train",
+      "label": "Train",
+      "category": "places",
+      "packs": [
+        "travel"
+      ],
+      "compose": "Icons.Outlined.Train"
+    },
+    {
+      "name": "local_taxi",
+      "label": "Taxi",
+      "category": "places",
+      "packs": [
+        "travel"
+      ],
+      "compose": "Icons.Outlined.LocalTaxi"
+    },
+    {
+      "name": "two_wheeler",
+      "label": "Scooter",
+      "category": "places",
+      "packs": [
+        "travel"
+      ],
+      "compose": "Icons.Outlined.TwoWheeler"
+    },
+    {
+      "name": "sailing",
+      "label": "Sailing",
+      "category": "places",
+      "packs": [
+        "travel"
+      ],
+      "compose": "Icons.Outlined.Sailing"
+    },
+    {
+      "name": "hiking",
+      "label": "Hiking",
+      "category": "places",
+      "packs": [
+        "travel",
+        "health"
+      ],
+      "compose": "Icons.Outlined.Hiking"
+    },
+    {
+      "name": "park",
+      "label": "Park",
+      "category": "places",
+      "packs": [
+        "travel"
+      ],
+      "compose": "Icons.Outlined.Park"
+    },
+    {
+      "name": "beach_access",
+      "label": "Beach",
+      "category": "places",
+      "packs": [
+        "travel"
+      ],
+      "compose": "Icons.Outlined.BeachAccess"
+    },
+    {
+      "name": "pool",
+      "label": "Pool",
+      "category": "places",
+      "packs": [
+        "travel",
+        "health"
+      ],
+      "compose": "Icons.Outlined.Pool"
+    },
+    {
+      "name": "work",
+      "label": "Work",
+      "category": "places",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.Work"
+    },
+    {
+      "name": "school",
+      "label": "School",
+      "category": "places",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.School"
+    },
+    {
+      "name": "apartment",
+      "label": "Apartment",
+      "category": "places",
+      "packs": [
+        "travel"
+      ],
+      "compose": "Icons.Outlined.Apartment"
+    },
+    {
+      "name": "storefront",
+      "label": "Store",
+      "category": "places",
+      "packs": [
+        "finance"
+      ],
+      "compose": "Icons.Outlined.Storefront"
+    },
+    {
+      "name": "local_mall",
+      "label": "Mall",
+      "category": "places",
+      "packs": [
+        "finance"
+      ],
+      "compose": "Icons.Outlined.LocalMall"
+    },
+    {
+      "name": "local_grocery_store",
+      "label": "Grocery",
+      "category": "places",
+      "packs": [
+        "travel"
+      ],
+      "compose": "Icons.Outlined.LocalGroceryStore"
+    },
+    {
+      "name": "local_gas_station",
+      "label": "Gas",
+      "category": "places",
+      "packs": [
+        "travel"
+      ],
+      "compose": "Icons.Outlined.LocalGasStation"
+    },
+    {
+      "name": "ev_station",
+      "label": "EV station",
+      "category": "places",
+      "packs": [
+        "travel"
+      ],
+      "compose": "Icons.Outlined.EvStation"
+    },
+    {
+      "name": "luggage",
+      "label": "Luggage",
+      "category": "places",
+      "packs": [
+        "travel"
+      ],
+      "compose": "Icons.Outlined.Luggage"
+    },
+    {
+      "name": "info",
+      "label": "Info",
+      "category": "ui",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.Info"
+    },
+    {
+      "name": "warning",
+      "label": "Warning",
+      "category": "ui",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.Warning"
+    },
+    {
+      "name": "error",
+      "label": "Error",
+      "category": "ui",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.Error"
+    },
+    {
+      "name": "help",
+      "label": "Help",
+      "category": "ui",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.Help"
+    },
+    {
+      "name": "palette",
+      "label": "Palette",
+      "category": "ui",
+      "packs": [
+        "graphics"
+      ],
+      "compose": "Icons.Outlined.Palette"
+    },
+    {
+      "name": "color_lens",
+      "label": "Color lens",
+      "category": "ui",
+      "packs": [
+        "graphics"
+      ],
+      "compose": "Icons.Outlined.ColorLens"
+    },
+    {
+      "name": "brush",
+      "label": "Brush",
+      "category": "ui",
+      "packs": [
+        "graphics",
+        "editor"
+      ],
+      "compose": "Icons.Outlined.Brush"
+    },
+    {
+      "name": "code",
+      "label": "Code",
+      "category": "ui",
+      "packs": [
+        "core",
+        "editor"
+      ],
+      "compose": "Icons.Outlined.Code"
+    },
+    {
+      "name": "android",
+      "label": "Android",
+      "category": "ui",
+      "packs": [
+        "core",
+        "devices"
+      ],
+      "compose": "Icons.Outlined.Android"
+    },
+    {
+      "name": "language",
+      "label": "Language",
+      "category": "ui",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.Language"
+    },
+    {
+      "name": "dark_mode",
+      "label": "Dark mode",
+      "category": "ui",
+      "packs": [
+        "core",
+        "graphics"
+      ],
+      "compose": "Icons.Outlined.DarkMode"
+    },
+    {
+      "name": "light_mode",
+      "label": "Light mode",
+      "category": "ui",
+      "packs": [
+        "core",
+        "graphics"
+      ],
+      "compose": "Icons.Outlined.LightMode"
+    },
+    {
+      "name": "contrast",
+      "label": "Contrast",
+      "category": "ui",
+      "packs": [
+        "graphics"
+      ],
+      "compose": "Icons.Outlined.Contrast"
+    },
+    {
+      "name": "widgets",
+      "label": "Widgets",
+      "category": "ui",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.Widgets"
+    },
+    {
+      "name": "visibility",
+      "label": "Visibility",
+      "category": "ui",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.Visibility"
+    },
+    {
+      "name": "visibility_off",
+      "label": "Visibility off",
+      "category": "ui",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.VisibilityOff"
+    },
+    {
+      "name": "lock",
+      "label": "Lock",
+      "category": "ui",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.Lock"
+    },
+    {
+      "name": "lock_open",
+      "label": "Lock open",
+      "category": "ui",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.LockOpen"
+    },
+    {
+      "name": "calendar_today",
+      "label": "Calendar",
+      "category": "ui",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.CalendarToday"
+    },
+    {
+      "name": "schedule",
+      "label": "Schedule",
+      "category": "ui",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.Schedule"
+    },
+    {
+      "name": "science",
+      "label": "Science",
+      "category": "ui",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.Science"
+    },
+    {
+      "name": "layers",
+      "label": "Layers",
+      "category": "ui",
+      "packs": [
+        "graphics",
+        "editor"
+      ],
+      "compose": "Icons.Outlined.Layers"
+    },
+    {
+      "name": "token",
+      "label": "Token",
+      "category": "ui",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.Token"
+    },
+    {
+      "name": "styler",
+      "label": "Styler",
+      "category": "ui",
+      "packs": [
+        "graphics"
+      ],
+      "compose": "Icons.Outlined.Styler"
+    },
+    {
+      "name": "interests",
+      "label": "Interests",
+      "category": "ui",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.Interests"
+    },
+    {
+      "name": "wifi",
+      "label": "Wifi",
+      "category": "ui",
+      "packs": [
+        "devices"
+      ],
+      "compose": "Icons.Outlined.Wifi"
+    },
+    {
+      "name": "bluetooth",
+      "label": "Bluetooth",
+      "category": "ui",
+      "packs": [
+        "devices"
+      ],
+      "compose": "Icons.Outlined.Bluetooth"
+    },
+    {
+      "name": "battery_full",
+      "label": "Battery",
+      "category": "ui",
+      "packs": [
+        "devices"
+      ],
+      "compose": "Icons.Outlined.BatteryFull"
+    },
+    {
+      "name": "battery_charging_full",
+      "label": "Charging",
+      "category": "devices",
+      "packs": [
+        "devices"
+      ],
+      "compose": "Icons.Outlined.BatteryChargingFull"
+    },
+    {
+      "name": "signal_cellular_alt",
+      "label": "Signal",
+      "category": "ui",
+      "packs": [
+        "devices"
+      ],
+      "compose": "Icons.Outlined.SignalCellularAlt"
+    },
+    {
+      "name": "gps_fixed",
+      "label": "GPS",
+      "category": "ui",
+      "packs": [
+        "travel"
+      ],
+      "compose": "Icons.Outlined.GpsFixed"
+    },
+    {
+      "name": "airplanemode_active",
+      "label": "Airplane",
+      "category": "ui",
+      "packs": [
+        "travel"
+      ],
+      "compose": "Icons.Outlined.AirplanemodeActive"
+    },
+    {
+      "name": "do_not_disturb_on",
+      "label": "DND",
+      "category": "ui",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.DoNotDisturbOn"
+    },
+    {
+      "name": "smartphone",
+      "label": "Smartphone",
+      "category": "ui",
+      "packs": [
+        "devices"
+      ],
+      "compose": "Icons.Outlined.Smartphone"
+    },
+    {
+      "name": "tablet_mac",
+      "label": "Tablet",
+      "category": "ui",
+      "packs": [
+        "devices"
+      ],
+      "compose": "Icons.Outlined.TabletMac"
+    },
+    {
+      "name": "desktop_windows",
+      "label": "Desktop",
+      "category": "ui",
+      "packs": [
+        "devices"
+      ],
+      "compose": "Icons.Outlined.DesktopWindows"
+    },
+    {
+      "name": "terminal",
+      "label": "Terminal",
+      "category": "ui",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.Terminal"
+    },
+    {
+      "name": "cloud",
+      "label": "Cloud",
+      "category": "ui",
+      "packs": [
+        "files"
+      ],
+      "compose": "Icons.Outlined.Cloud"
+    },
+    {
+      "name": "cloud_off",
+      "label": "Cloud off",
+      "category": "ui",
+      "packs": [
+        "files"
+      ],
+      "compose": "Icons.Outlined.CloudOff"
+    },
+    {
+      "name": "cloud_sync",
+      "label": "Cloud sync",
+      "category": "ui",
+      "packs": [
+        "files"
+      ],
+      "compose": "Icons.Outlined.CloudSync"
+    },
+    {
+      "name": "security",
+      "label": "Security",
+      "category": "ui",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.Security"
+    },
+    {
+      "name": "verified",
+      "label": "Verified",
+      "category": "ui",
+      "packs": [
+        "social"
+      ],
+      "compose": "Icons.Outlined.Verified"
+    },
+    {
+      "name": "key",
+      "label": "Key",
+      "category": "ui",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.Key"
+    },
+    {
+      "name": "fingerprint",
+      "label": "Fingerprint",
+      "category": "ui",
+      "packs": [
+        "devices"
+      ],
+      "compose": "Icons.Outlined.Fingerprint"
+    },
+    {
+      "name": "face",
+      "label": "Face",
+      "category": "ui",
+      "packs": [
+        "devices"
+      ],
+      "compose": "Icons.Outlined.Face"
+    },
+    {
+      "name": "password",
+      "label": "Password",
+      "category": "ui",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.Password"
+    },
+    {
+      "name": "admin_panel_settings",
+      "label": "Admin",
+      "category": "ui",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.AdminPanelSettings"
+    },
+    {
+      "name": "construction",
+      "label": "Construction",
+      "category": "ui",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.Construction"
+    },
+    {
+      "name": "handyman",
+      "label": "Handyman",
+      "category": "ui",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.Handyman"
+    },
+    {
+      "name": "font_download",
+      "label": "Font download",
+      "category": "ui",
+      "packs": [
+        "editor"
+      ],
+      "compose": "Icons.Outlined.FontDownload"
+    },
+    {
+      "name": "title",
+      "label": "Title",
+      "category": "ui",
+      "packs": [
+        "editor"
+      ],
+      "compose": "Icons.Outlined.Title"
+    },
+    {
+      "name": "search_off",
+      "label": "Search off",
+      "category": "actions",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.SearchOff"
+    },
+    {
+      "name": "sunny",
+      "label": "Sunny",
+      "category": "weather",
+      "packs": [
+        "weather"
+      ],
+      "compose": "Icons.Outlined.Sunny"
+    },
+    {
+      "name": "partly_cloudy_day",
+      "label": "Partly cloudy",
+      "category": "weather",
+      "packs": [
+        "weather"
+      ],
+      "compose": "Icons.Outlined.PartlyCloudyDay"
+    },
+    {
+      "name": "cloud_queue",
+      "label": "Cloudy",
+      "category": "weather",
+      "packs": [
+        "weather"
+      ],
+      "compose": "Icons.Outlined.CloudQueue"
+    },
+    {
+      "name": "rainy",
+      "label": "Rainy",
+      "category": "weather",
+      "packs": [
+        "weather"
+      ],
+      "compose": "Icons.Outlined.Rainy"
+    },
+    {
+      "name": "thunderstorm",
+      "label": "Thunderstorm",
+      "category": "weather",
+      "packs": [
+        "weather"
+      ],
+      "compose": "Icons.Outlined.Thunderstorm"
+    },
+    {
+      "name": "weather_snowy",
+      "label": "Snow",
+      "category": "weather",
+      "packs": [
+        "weather"
+      ],
+      "compose": "Icons.Outlined.WeatherSnowy"
+    },
+    {
+      "name": "ac_unit",
+      "label": "Cold",
+      "category": "weather",
+      "packs": [
+        "weather"
+      ],
+      "compose": "Icons.Outlined.AcUnit"
+    },
+    {
+      "name": "air",
+      "label": "Wind",
+      "category": "weather",
+      "packs": [
+        "weather"
+      ],
+      "compose": "Icons.Outlined.Air"
+    },
+    {
+      "name": "water_drop",
+      "label": "Drop",
+      "category": "weather",
+      "packs": [
+        "weather",
+        "health"
+      ],
+      "compose": "Icons.Outlined.WaterDrop"
+    },
+    {
+      "name": "cyclone",
+      "label": "Cyclone",
+      "category": "weather",
+      "packs": [
+        "weather"
+      ],
+      "compose": "Icons.Outlined.Cyclone"
+    },
+    {
+      "name": "foggy",
+      "label": "Fog",
+      "category": "weather",
+      "packs": [
+        "weather"
+      ],
+      "compose": "Icons.Outlined.Foggy"
+    },
+    {
+      "name": "nightlight",
+      "label": "Night",
+      "category": "weather",
+      "packs": [
+        "weather",
+        "graphics"
+      ],
+      "compose": "Icons.Outlined.Nightlight"
+    },
+    {
+      "name": "wb_twilight",
+      "label": "Twilight",
+      "category": "weather",
+      "packs": [
+        "weather",
+        "graphics"
+      ],
+      "compose": "Icons.Outlined.WbTwilight"
+    },
+    {
+      "name": "thermostat",
+      "label": "Thermostat",
+      "category": "weather",
+      "packs": [
+        "weather",
+        "devices"
+      ],
+      "compose": "Icons.Outlined.Thermostat"
+    },
+    {
+      "name": "water",
+      "label": "Water",
+      "category": "weather",
+      "packs": [
+        "weather"
+      ],
+      "compose": "Icons.Outlined.Water"
+    },
+    {
+      "name": "waves",
+      "label": "Waves",
+      "category": "weather",
+      "packs": [
+        "weather",
+        "graphics"
+      ],
+      "compose": "Icons.Outlined.Waves"
+    },
+    {
+      "name": "laptop",
+      "label": "Laptop",
+      "category": "devices",
+      "packs": [
+        "devices"
+      ],
+      "compose": "Icons.Outlined.Laptop"
+    },
+    {
+      "name": "computer",
+      "label": "Computer",
+      "category": "devices",
+      "packs": [
+        "devices"
+      ],
+      "compose": "Icons.Outlined.Computer"
+    },
+    {
+      "name": "keyboard",
+      "label": "Keyboard",
+      "category": "devices",
+      "packs": [
+        "devices"
+      ],
+      "compose": "Icons.Outlined.Keyboard"
+    },
+    {
+      "name": "mouse",
+      "label": "Mouse",
+      "category": "devices",
+      "packs": [
+        "devices"
+      ],
+      "compose": "Icons.Outlined.Mouse"
+    },
+    {
+      "name": "memory",
+      "label": "Memory",
+      "category": "devices",
+      "packs": [
+        "devices"
+      ],
+      "compose": "Icons.Outlined.Memory"
+    },
+    {
+      "name": "developer_board",
+      "label": "Board",
+      "category": "devices",
+      "packs": [
+        "devices"
+      ],
+      "compose": "Icons.Outlined.DeveloperBoard"
+    },
+    {
+      "name": "router",
+      "label": "Router",
+      "category": "devices",
+      "packs": [
+        "devices"
+      ],
+      "compose": "Icons.Outlined.Router"
+    },
+    {
+      "name": "watch",
+      "label": "Watch",
+      "category": "devices",
+      "packs": [
+        "devices"
+      ],
+      "compose": "Icons.Outlined.Watch"
+    },
+    {
+      "name": "speaker",
+      "label": "Speaker",
+      "category": "devices",
+      "packs": [
+        "devices",
+        "media"
+      ],
+      "compose": "Icons.Outlined.Speaker"
+    },
+    {
+      "name": "tv",
+      "label": "TV",
+      "category": "devices",
+      "packs": [
+        "devices",
+        "media"
+      ],
+      "compose": "Icons.Outlined.Tv"
+    },
+    {
+      "name": "videogame_asset",
+      "label": "Gamepad",
+      "category": "devices",
+      "packs": [
+        "devices"
+      ],
+      "compose": "Icons.Outlined.VideogameAsset"
+    },
+    {
+      "name": "usb",
+      "label": "USB",
+      "category": "devices",
+      "packs": [
+        "devices"
+      ],
+      "compose": "Icons.Outlined.Usb"
+    },
+    {
+      "name": "sd_card",
+      "label": "SD card",
+      "category": "devices",
+      "packs": [
+        "devices"
+      ],
+      "compose": "Icons.Outlined.SdCard"
+    },
+    {
+      "name": "power",
+      "label": "Power",
+      "category": "devices",
+      "packs": [
+        "devices"
+      ],
+      "compose": "Icons.Outlined.Power"
+    },
+    {
+      "name": "flashlight_on",
+      "label": "Flashlight",
+      "category": "devices",
+      "packs": [
+        "devices"
+      ],
+      "compose": "Icons.Outlined.FlashlightOn"
+    },
+    {
+      "name": "devices",
+      "label": "Devices",
+      "category": "devices",
+      "packs": [
+        "devices"
+      ],
+      "compose": "Icons.Outlined.Devices"
+    },
+    {
+      "name": "format_bold",
+      "label": "Bold",
+      "category": "editor",
+      "packs": [
+        "editor"
+      ],
+      "compose": "Icons.Outlined.FormatBold"
+    },
+    {
+      "name": "format_italic",
+      "label": "Italic",
+      "category": "editor",
+      "packs": [
+        "editor"
+      ],
+      "compose": "Icons.Outlined.FormatItalic"
+    },
+    {
+      "name": "format_underlined",
+      "label": "Underline",
+      "category": "editor",
+      "packs": [
+        "editor"
+      ],
+      "compose": "Icons.Outlined.FormatUnderlined"
+    },
+    {
+      "name": "format_align_left",
+      "label": "Align left",
+      "category": "editor",
+      "packs": [
+        "editor"
+      ],
+      "compose": "Icons.Outlined.FormatAlignLeft"
+    },
+    {
+      "name": "format_align_center",
+      "label": "Align center",
+      "category": "editor",
+      "packs": [
+        "editor"
+      ],
+      "compose": "Icons.Outlined.FormatAlignCenter"
+    },
+    {
+      "name": "format_align_right",
+      "label": "Align right",
+      "category": "editor",
+      "packs": [
+        "editor"
+      ],
+      "compose": "Icons.Outlined.FormatAlignRight"
+    },
+    {
+      "name": "format_list_bulleted",
+      "label": "Bullets",
+      "category": "editor",
+      "packs": [
+        "editor"
+      ],
+      "compose": "Icons.Outlined.FormatListBulleted"
+    },
+    {
+      "name": "format_list_numbered",
+      "label": "Numbers",
+      "category": "editor",
+      "packs": [
+        "editor"
+      ],
+      "compose": "Icons.Outlined.FormatListNumbered"
+    },
+    {
+      "name": "format_quote",
+      "label": "Quote",
+      "category": "editor",
+      "packs": [
+        "editor"
+      ],
+      "compose": "Icons.Outlined.FormatQuote"
+    },
+    {
+      "name": "format_size",
+      "label": "Type size",
+      "category": "editor",
+      "packs": [
+        "editor"
+      ],
+      "compose": "Icons.Outlined.FormatSize"
+    },
+    {
+      "name": "format_color_text",
+      "label": "Text color",
+      "category": "editor",
+      "packs": [
+        "editor",
+        "graphics"
+      ],
+      "compose": "Icons.Outlined.FormatColorText"
+    },
+    {
+      "name": "format_paint",
+      "label": "Paint",
+      "category": "editor",
+      "packs": [
+        "editor",
+        "graphics"
+      ],
+      "compose": "Icons.Outlined.FormatPaint"
+    },
+    {
+      "name": "notes",
+      "label": "Notes",
+      "category": "editor",
+      "packs": [
+        "editor",
+        "files"
+      ],
+      "compose": "Icons.Outlined.Notes"
+    },
+    {
+      "name": "spellcheck",
+      "label": "Spellcheck",
+      "category": "editor",
+      "packs": [
+        "editor"
+      ],
+      "compose": "Icons.Outlined.Spellcheck"
+    },
+    {
+      "name": "find_in_page",
+      "label": "Find",
+      "category": "editor",
+      "packs": [
+        "editor"
+      ],
+      "compose": "Icons.Outlined.FindInPage"
+    },
+    {
+      "name": "draw",
+      "label": "Draw",
+      "category": "editor",
+      "packs": [
+        "editor",
+        "graphics"
+      ],
+      "compose": "Icons.Outlined.Draw"
+    },
+    {
+      "name": "highlight",
+      "label": "Highlight",
+      "category": "editor",
+      "packs": [
+        "editor"
+      ],
+      "compose": "Icons.Outlined.Highlight"
+    },
+    {
+      "name": "strikethrough_s",
+      "label": "Strike",
+      "category": "editor",
+      "packs": [
+        "editor"
+      ],
+      "compose": "Icons.Outlined.StrikethroughS"
+    },
+    {
+      "name": "table_chart",
+      "label": "Table",
+      "category": "editor",
+      "packs": [
+        "editor",
+        "charts"
+      ],
+      "compose": "Icons.Outlined.TableChart"
+    },
+    {
+      "name": "payments",
+      "label": "Payments",
+      "category": "finance",
+      "packs": [
+        "finance"
+      ],
+      "compose": "Icons.Outlined.Payments"
+    },
+    {
+      "name": "account_balance",
+      "label": "Bank",
+      "category": "finance",
+      "packs": [
+        "finance"
+      ],
+      "compose": "Icons.Outlined.AccountBalance"
+    },
+    {
+      "name": "account_balance_wallet",
+      "label": "Wallet",
+      "category": "finance",
+      "packs": [
+        "finance"
+      ],
+      "compose": "Icons.Outlined.AccountBalanceWallet"
+    },
+    {
+      "name": "trending_up",
+      "label": "Trending up",
+      "category": "finance",
+      "packs": [
+        "finance",
+        "charts"
+      ],
+      "compose": "Icons.Outlined.TrendingUp"
+    },
+    {
+      "name": "trending_down",
+      "label": "Trending down",
+      "category": "finance",
+      "packs": [
+        "finance",
+        "charts"
+      ],
+      "compose": "Icons.Outlined.TrendingDown"
+    },
+    {
+      "name": "savings",
+      "label": "Savings",
+      "category": "finance",
+      "packs": [
+        "finance"
+      ],
+      "compose": "Icons.Outlined.Savings"
+    },
+    {
+      "name": "attach_money",
+      "label": "Money",
+      "category": "finance",
+      "packs": [
+        "finance"
+      ],
+      "compose": "Icons.Outlined.AttachMoney"
+    },
+    {
+      "name": "currency_bitcoin",
+      "label": "Bitcoin",
+      "category": "finance",
+      "packs": [
+        "finance"
+      ],
+      "compose": "Icons.Outlined.CurrencyBitcoin"
+    },
+    {
+      "name": "currency_exchange",
+      "label": "Exchange",
+      "category": "finance",
+      "packs": [
+        "finance"
+      ],
+      "compose": "Icons.Outlined.CurrencyExchange"
+    },
+    {
+      "name": "receipt_long",
+      "label": "Receipt",
+      "category": "finance",
+      "packs": [
+        "finance"
+      ],
+      "compose": "Icons.Outlined.ReceiptLong"
+    },
+    {
+      "name": "request_quote",
+      "label": "Quote",
+      "category": "finance",
+      "packs": [
+        "finance"
+      ],
+      "compose": "Icons.Outlined.RequestQuote"
+    },
+    {
+      "name": "analytics",
+      "label": "Analytics",
+      "category": "charts",
+      "packs": [
+        "charts",
+        "finance"
+      ],
+      "compose": "Icons.Outlined.Analytics"
+    },
+    {
+      "name": "pie_chart",
+      "label": "Pie",
+      "category": "charts",
+      "packs": [
+        "charts"
+      ],
+      "compose": "Icons.Outlined.PieChart"
+    },
+    {
+      "name": "bar_chart",
+      "label": "Bar",
+      "category": "charts",
+      "packs": [
+        "charts"
+      ],
+      "compose": "Icons.Outlined.BarChart"
+    },
+    {
+      "name": "show_chart",
+      "label": "Line",
+      "category": "charts",
+      "packs": [
+        "charts"
+      ],
+      "compose": "Icons.Outlined.ShowChart"
+    },
+    {
+      "name": "stacked_bar_chart",
+      "label": "Stacked",
+      "category": "charts",
+      "packs": [
+        "charts"
+      ],
+      "compose": "Icons.Outlined.StackedBarChart"
+    },
+    {
+      "name": "candlestick_chart",
+      "label": "Candles",
+      "category": "charts",
+      "packs": [
+        "charts"
+      ],
+      "compose": "Icons.Outlined.CandlestickChart"
+    },
+    {
+      "name": "scatter_plot",
+      "label": "Scatter",
+      "category": "charts",
+      "packs": [
+        "charts"
+      ],
+      "compose": "Icons.Outlined.ScatterPlot"
+    },
+    {
+      "name": "monetization_on",
+      "label": "Coin",
+      "category": "finance",
+      "packs": [
+        "finance"
+      ],
+      "compose": "Icons.Outlined.MonetizationOn"
+    },
+    {
+      "name": "paid",
+      "label": "Paid",
+      "category": "finance",
+      "packs": [
+        "finance"
+      ],
+      "compose": "Icons.Outlined.Paid"
+    },
+    {
+      "name": "monitor_heart",
+      "label": "Heart monitor",
+      "category": "health",
+      "packs": [
+        "health"
+      ],
+      "compose": "Icons.Outlined.MonitorHeart"
+    },
+    {
+      "name": "local_hospital",
+      "label": "Hospital",
+      "category": "health",
+      "packs": [
+        "health"
+      ],
+      "compose": "Icons.Outlined.LocalHospital"
+    },
+    {
+      "name": "medical_services",
+      "label": "Medical",
+      "category": "health",
+      "packs": [
+        "health"
+      ],
+      "compose": "Icons.Outlined.MedicalServices"
+    },
+    {
+      "name": "medication",
+      "label": "Medication",
+      "category": "health",
+      "packs": [
+        "health"
+      ],
+      "compose": "Icons.Outlined.Medication"
+    },
+    {
+      "name": "fitness_center",
+      "label": "Fitness",
+      "category": "health",
+      "packs": [
+        "health"
+      ],
+      "compose": "Icons.Outlined.FitnessCenter"
+    },
+    {
+      "name": "self_improvement",
+      "label": "Wellbeing",
+      "category": "health",
+      "packs": [
+        "health"
+      ],
+      "compose": "Icons.Outlined.SelfImprovement"
+    },
+    {
+      "name": "spa",
+      "label": "Spa",
+      "category": "health",
+      "packs": [
+        "health"
+      ],
+      "compose": "Icons.Outlined.Spa"
+    },
+    {
+      "name": "psychology",
+      "label": "Mind",
+      "category": "health",
+      "packs": [
+        "health"
+      ],
+      "compose": "Icons.Outlined.Psychology"
+    },
+    {
+      "name": "sentiment_satisfied",
+      "label": "Satisfied",
+      "category": "health",
+      "packs": [
+        "health",
+        "social"
+      ],
+      "compose": "Icons.Outlined.SentimentSatisfied"
+    },
+    {
+      "name": "sentiment_dissatisfied",
+      "label": "Dissatisfied",
+      "category": "health",
+      "packs": [
+        "health",
+        "social"
+      ],
+      "compose": "Icons.Outlined.SentimentDissatisfied"
+    },
+    {
+      "name": "bedtime",
+      "label": "Bedtime",
+      "category": "health",
+      "packs": [
+        "health"
+      ],
+      "compose": "Icons.Outlined.Bedtime"
+    },
+    {
+      "name": "health_and_safety",
+      "label": "Safety",
+      "category": "health",
+      "packs": [
+        "health"
+      ],
+      "compose": "Icons.Outlined.HealthAndSafety"
+    },
+    {
+      "name": "emergency",
+      "label": "Emergency",
+      "category": "health",
+      "packs": [
+        "health"
+      ],
+      "compose": "Icons.Outlined.Emergency"
+    },
+    {
+      "name": "vaccines",
+      "label": "Vaccines",
+      "category": "health",
+      "packs": [
+        "health"
+      ],
+      "compose": "Icons.Outlined.Vaccines"
+    },
+    {
+      "name": "accessibility",
+      "label": "Accessibility",
+      "category": "health",
+      "packs": [
+        "health",
+        "core"
+      ],
+      "compose": "Icons.Outlined.Accessibility"
+    },
+    {
+      "name": "accessible",
+      "label": "Accessible",
+      "category": "health",
+      "packs": [
+        "health"
+      ],
+      "compose": "Icons.Outlined.Accessible"
+    },
+    {
+      "name": "hearing",
+      "label": "Hearing",
+      "category": "health",
+      "packs": [
+        "health"
+      ],
+      "compose": "Icons.Outlined.Hearing"
+    },
+    {
+      "name": "folder",
+      "label": "Folder",
+      "category": "files",
+      "packs": [
+        "files",
+        "core"
+      ],
+      "compose": "Icons.Outlined.Folder"
+    },
+    {
+      "name": "folder_open",
+      "label": "Folder open",
+      "category": "files",
+      "packs": [
+        "files"
+      ],
+      "compose": "Icons.Outlined.FolderOpen"
+    },
+    {
+      "name": "folder_zip",
+      "label": "Archive",
+      "category": "files",
+      "packs": [
+        "files"
+      ],
+      "compose": "Icons.Outlined.FolderZip"
+    },
+    {
+      "name": "description",
+      "label": "Document",
+      "category": "files",
+      "packs": [
+        "files",
+        "core"
+      ],
+      "compose": "Icons.Outlined.Description"
+    },
+    {
+      "name": "article",
+      "label": "Article",
+      "category": "files",
+      "packs": [
+        "files"
+      ],
+      "compose": "Icons.Outlined.Article"
+    },
+    {
+      "name": "picture_as_pdf",
+      "label": "PDF",
+      "category": "files",
+      "packs": [
+        "files"
+      ],
+      "compose": "Icons.Outlined.PictureAsPdf"
+    },
+    {
+      "name": "upload_file",
+      "label": "Upload file",
+      "category": "files",
+      "packs": [
+        "files"
+      ],
+      "compose": "Icons.Outlined.UploadFile"
+    },
+    {
+      "name": "attach_file",
+      "label": "Attach",
+      "category": "files",
+      "packs": [
+        "files"
+      ],
+      "compose": "Icons.Outlined.AttachFile"
+    },
+    {
+      "name": "snippet_folder",
+      "label": "Snippets",
+      "category": "files",
+      "packs": [
+        "files"
+      ],
+      "compose": "Icons.Outlined.SnippetFolder"
+    },
+    {
+      "name": "dataset",
+      "label": "Dataset",
+      "category": "files",
+      "packs": [
+        "files",
+        "charts"
+      ],
+      "compose": "Icons.Outlined.Dataset"
+    },
+    {
+      "name": "table_view",
+      "label": "Table view",
+      "category": "files",
+      "packs": [
+        "files",
+        "charts"
+      ],
+      "compose": "Icons.Outlined.TableView"
+    },
+    {
+      "name": "schema",
+      "label": "Schema",
+      "category": "files",
+      "packs": [
+        "files"
+      ],
+      "compose": "Icons.Outlined.Schema"
+    },
+    {
+      "name": "cloud_upload",
+      "label": "Cloud upload",
+      "category": "files",
+      "packs": [
+        "files"
+      ],
+      "compose": "Icons.Outlined.CloudUpload"
+    },
+    {
+      "name": "cloud_download",
+      "label": "Cloud download",
+      "category": "files",
+      "packs": [
+        "files"
+      ],
+      "compose": "Icons.Outlined.CloudDownload"
+    },
+    {
+      "name": "thumb_up",
+      "label": "Thumb up",
+      "category": "social",
+      "packs": [
+        "social"
+      ],
+      "compose": "Icons.Outlined.ThumbUp"
+    },
+    {
+      "name": "thumb_down",
+      "label": "Thumb down",
+      "category": "social",
+      "packs": [
+        "social"
+      ],
+      "compose": "Icons.Outlined.ThumbDown"
+    },
+    {
+      "name": "comment",
+      "label": "Comment",
+      "category": "social",
+      "packs": [
+        "social"
+      ],
+      "compose": "Icons.Outlined.Comment"
+    },
+    {
+      "name": "rss_feed",
+      "label": "RSS",
+      "category": "social",
+      "packs": [
+        "social"
+      ],
+      "compose": "Icons.Outlined.RssFeed"
+    },
+    {
+      "name": "diversity_3",
+      "label": "Community",
+      "category": "social",
+      "packs": [
+        "social"
+      ],
+      "compose": "Icons.Outlined.Diversity3"
+    },
+    {
+      "name": "handshake",
+      "label": "Handshake",
+      "category": "social",
+      "packs": [
+        "social"
+      ],
+      "compose": "Icons.Outlined.Handshake"
+    },
+    {
+      "name": "volunteer_activism",
+      "label": "Volunteer",
+      "category": "social",
+      "packs": [
+        "social",
+        "health"
+      ],
+      "compose": "Icons.Outlined.VolunteerActivism"
+    },
+    {
+      "name": "translate",
+      "label": "Translate",
+      "category": "social",
+      "packs": [
+        "social"
+      ],
+      "compose": "Icons.Outlined.Translate"
+    },
+    {
+      "name": "ios_share",
+      "label": "Share sheet",
+      "category": "social",
+      "packs": [
+        "social"
+      ],
+      "compose": "Icons.Outlined.IosShare"
+    },
+    {
+      "name": "reviews",
+      "label": "Reviews",
+      "category": "social",
+      "packs": [
+        "social"
+      ],
+      "compose": "Icons.Outlined.Reviews"
+    },
+    {
+      "name": "rate_review",
+      "label": "Rate",
+      "category": "social",
+      "packs": [
+        "social"
+      ],
+      "compose": "Icons.Outlined.RateReview"
+    },
+    {
+      "name": "emoji_emotions",
+      "label": "Emoji",
+      "category": "social",
+      "packs": [
+        "social"
+      ],
+      "compose": "Icons.Outlined.EmojiEmotions"
+    },
+    {
+      "name": "celebration",
+      "label": "Celebration",
+      "category": "social",
+      "packs": [
+        "social"
+      ],
+      "compose": "Icons.Outlined.Celebration"
+    },
+    {
+      "name": "cake",
+      "label": "Cake",
+      "category": "social",
+      "packs": [
+        "social"
+      ],
+      "compose": "Icons.Outlined.Cake"
+    },
+    {
+      "name": "card_giftcard",
+      "label": "Gift",
+      "category": "social",
+      "packs": [
+        "social",
+        "finance"
+      ],
+      "compose": "Icons.Outlined.CardGiftcard"
+    },
+    {
+      "name": "gradient",
+      "label": "Gradient",
+      "category": "ui",
+      "packs": [
+        "graphics"
+      ],
+      "compose": "Icons.Outlined.Gradient"
+    },
+    {
+      "name": "texture",
+      "label": "Texture",
+      "category": "ui",
+      "packs": [
+        "graphics"
+      ],
+      "compose": "Icons.Outlined.Texture"
+    },
+    {
+      "name": "blur_on",
+      "label": "Blur",
+      "category": "ui",
+      "packs": [
+        "graphics"
+      ],
+      "compose": "Icons.Outlined.BlurOn"
+    },
+    {
+      "name": "auto_awesome",
+      "label": "Sparkle",
+      "category": "ui",
+      "packs": [
+        "graphics"
+      ],
+      "compose": "Icons.Outlined.AutoAwesome"
+    },
+    {
+      "name": "filter_vintage",
+      "label": "Vintage",
+      "category": "ui",
+      "packs": [
+        "graphics"
+      ],
+      "compose": "Icons.Outlined.FilterVintage"
+    },
+    {
+      "name": "tonality",
+      "label": "Tonality",
+      "category": "ui",
+      "packs": [
+        "graphics"
+      ],
+      "compose": "Icons.Outlined.Tonality"
+    },
+    {
+      "name": "brightness_6",
+      "label": "Brightness",
+      "category": "ui",
+      "packs": [
+        "graphics"
+      ],
+      "compose": "Icons.Outlined.Brightness6"
+    },
+    {
+      "name": "hdr_strong",
+      "label": "HDR",
+      "category": "ui",
+      "packs": [
+        "graphics"
+      ],
+      "compose": "Icons.Outlined.HdrStrong"
+    },
+    {
+      "name": "grain",
+      "label": "Grain",
+      "category": "ui",
+      "packs": [
+        "graphics"
+      ],
+      "compose": "Icons.Outlined.Grain"
+    },
+    {
+      "name": "animation",
+      "label": "Animation",
+      "category": "ui",
+      "packs": [
+        "graphics"
+      ],
+      "compose": "Icons.Outlined.Animation"
+    },
+    {
+      "name": "view_in_ar",
+      "label": "AR",
+      "category": "ui",
+      "packs": [
+        "graphics"
+      ],
+      "compose": "Icons.Outlined.ViewInAr"
+    },
+    {
+      "name": "filter",
+      "label": "Filter FX",
+      "category": "ui",
+      "packs": [
+        "graphics"
+      ],
+      "compose": "Icons.Outlined.Filter"
+    },
+    {
+      "name": "filter_b_and_w",
+      "label": "Mono",
+      "category": "ui",
+      "packs": [
+        "graphics"
+      ],
+      "compose": "Icons.Outlined.FilterBAndW"
+    },
+    {
+      "name": "filter_drama",
+      "label": "Drama",
+      "category": "ui",
+      "packs": [
+        "graphics"
+      ],
+      "compose": "Icons.Outlined.FilterDrama"
+    },
+    {
+      "name": "lens_blur",
+      "label": "Lens blur",
+      "category": "ui",
+      "packs": [
+        "graphics"
+      ],
+      "compose": "Icons.Outlined.LensBlur"
+    },
+    {
+      "name": "deblur",
+      "label": "Deblur",
+      "category": "ui",
+      "packs": [
+        "graphics"
+      ],
+      "compose": "Icons.Outlined.Deblur"
+    },
+    {
+      "name": "colorize",
+      "label": "Colorize",
+      "category": "ui",
+      "packs": [
+        "graphics"
+      ],
+      "compose": "Icons.Outlined.Colorize"
+    },
+    {
+      "name": "invert_colors",
+      "label": "Invert",
+      "category": "ui",
+      "packs": [
+        "graphics"
+      ],
+      "compose": "Icons.Outlined.InvertColors"
+    },
+    {
+      "name": "opacity",
+      "label": "Opacity",
+      "category": "ui",
+      "packs": [
+        "graphics"
+      ],
+      "compose": "Icons.Outlined.Opacity"
+    },
+    {
+      "name": "hue",
+      "label": "Hue",
+      "category": "ui",
+      "packs": [
+        "graphics"
+      ],
+      "compose": "Icons.Outlined.Hue"
+    },
+    {
+      "name": "flare",
+      "label": "Flare",
+      "category": "ui",
+      "packs": [
+        "graphics"
+      ],
+      "compose": "Icons.Outlined.Flare"
+    },
+    {
+      "name": "flash_on",
+      "label": "Flash",
+      "category": "ui",
+      "packs": [
+        "graphics"
+      ],
+      "compose": "Icons.Outlined.FlashOn"
+    },
+    {
+      "name": "exposure",
+      "label": "Exposure",
+      "category": "ui",
+      "packs": [
+        "graphics"
+      ],
+      "compose": "Icons.Outlined.Exposure"
+    },
+    {
+      "name": "wb_iridescent",
+      "label": "Iridescent",
+      "category": "ui",
+      "packs": [
+        "graphics"
+      ],
+      "compose": "Icons.Outlined.WbIridescent"
+    },
+    {
+      "name": "crop",
+      "label": "Crop",
+      "category": "editor",
+      "packs": [
+        "graphics",
+        "editor"
+      ],
+      "compose": "Icons.Outlined.Crop"
+    },
+    {
+      "name": "crop_rotate",
+      "label": "Rotate crop",
+      "category": "editor",
+      "packs": [
+        "graphics"
+      ],
+      "compose": "Icons.Outlined.CropRotate"
+    },
+    {
+      "name": "flip",
+      "label": "Flip",
+      "category": "editor",
+      "packs": [
+        "graphics"
+      ],
+      "compose": "Icons.Outlined.Flip"
+    },
+    {
+      "name": "rotate_right",
+      "label": "Rotate",
+      "category": "editor",
+      "packs": [
+        "graphics"
+      ],
+      "compose": "Icons.Outlined.RotateRight"
+    },
+    {
+      "name": "transform",
+      "label": "Transform",
+      "category": "editor",
+      "packs": [
+        "graphics"
+      ],
+      "compose": "Icons.Outlined.Transform"
+    },
+    {
+      "name": "architecture",
+      "label": "Architecture",
+      "category": "ui",
+      "packs": [
+        "graphics"
+      ],
+      "compose": "Icons.Outlined.Architecture"
+    },
+    {
+      "name": "square_foot",
+      "label": "Measure",
+      "category": "ui",
+      "packs": [
+        "graphics"
+      ],
+      "compose": "Icons.Outlined.SquareFoot"
+    },
+    {
+      "name": "hexagon",
+      "label": "Hexagon",
+      "category": "ui",
+      "packs": [
+        "graphics"
+      ],
+      "compose": "Icons.Outlined.Hexagon"
+    },
+    {
+      "name": "pentagon",
+      "label": "Pentagon",
+      "category": "ui",
+      "packs": [
+        "graphics"
+      ],
+      "compose": "Icons.Outlined.Pentagon"
+    },
+    {
+      "name": "category",
+      "label": "Category",
+      "category": "ui",
+      "packs": [
+        "graphics"
+      ],
+      "compose": "Icons.Outlined.Category"
+    },
+    {
+      "name": "grid_4x4",
+      "label": "Grid 4×4",
+      "category": "ui",
+      "packs": [
+        "graphics"
+      ],
+      "compose": "Icons.Outlined.Grid4x4"
+    },
+    {
+      "name": "hide_image",
+      "label": "Hide image",
+      "category": "media",
+      "packs": [
+        "graphics"
+      ],
+      "compose": "Icons.Outlined.HideImage"
+    },
+    {
+      "name": "shutter_speed",
+      "label": "Shutter",
+      "category": "media",
+      "packs": [
+        "graphics"
+      ],
+      "compose": "Icons.Outlined.ShutterSpeed"
+    },
+    {
+      "name": "radio_button_unchecked",
+      "label": "Radio off",
+      "category": "ui",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.RadioButtonUnchecked"
+    },
+    {
+      "name": "radio_button_checked",
+      "label": "Radio on",
+      "category": "ui",
+      "packs": [
+        "core"
+      ],
+      "compose": "Icons.Outlined.RadioButtonChecked"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="24" height="24" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" shape-rendering="geometricPrecision">
+  <title>Dashboard</title>
+  <path d="M5 4H10Q11 4 11 5V10Q11 11 10 11H5Q4 11 4 10V5Q4 4 5 4Z M14 4H19Q20 4 20 5V10Q20 11 19 11H14Q13 11 13 10V5Q13 4 14 4Z M5 13H10Q11 13 11 14V19Q11 20 10 20H5Q4 20 4 19V14Q4 13 5 13Z M14 13H19Q20 13 20 14V19Q20 20 19 20H14Q13 20 13 19V14Q13 13 14 13Z" fill="none" stroke="#1D2433" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" vector-effect="non-scaling-stroke"/>
+</svg>

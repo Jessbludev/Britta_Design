@@ -1,0 +1,802 @@
+[
+  {
+    "id": "arrow_back",
+    "name": "Arrow Back",
+    "category": "01-navigation",
+    "svg": "svg/arrow_back.svg",
+    "android": "android/arrow_back.xml",
+    "style": "outline"
+  },
+  {
+    "id": "arrow_forward",
+    "name": "Arrow Forward",
+    "category": "01-navigation",
+    "svg": "svg/arrow_forward.svg",
+    "android": "android/arrow_forward.xml",
+    "style": "outline"
+  },
+  {
+    "id": "arrow_up",
+    "name": "Arrow Up",
+    "category": "01-navigation",
+    "svg": "svg/arrow_up.svg",
+    "android": "android/arrow_up.xml",
+    "style": "outline"
+  },
+  {
+    "id": "arrow_down",
+    "name": "Arrow Down",
+    "category": "01-navigation",
+    "svg": "svg/arrow_down.svg",
+    "android": "android/arrow_down.xml",
+    "style": "outline"
+  },
+  {
+    "id": "chevron_left",
+    "name": "Chevron Left",
+    "category": "01-navigation",
+    "svg": "svg/chevron_left.svg",
+    "android": "android/chevron_left.xml",
+    "style": "outline"
+  },
+  {
+    "id": "chevron_right",
+    "name": "Chevron Right",
+    "category": "01-navigation",
+    "svg": "svg/chevron_right.svg",
+    "android": "android/chevron_right.xml",
+    "style": "outline"
+  },
+  {
+    "id": "menu",
+    "name": "Menu",
+    "category": "01-navigation",
+    "svg": "svg/menu.svg",
+    "android": "android/menu.xml",
+    "style": "outline"
+  },
+  {
+    "id": "close",
+    "name": "Close",
+    "category": "01-navigation",
+    "svg": "svg/close.svg",
+    "android": "android/close.xml",
+    "style": "outline"
+  },
+  {
+    "id": "more_vertical",
+    "name": "More Vertical",
+    "category": "01-navigation",
+    "svg": "svg/more_vertical.svg",
+    "android": "android/more_vertical.xml",
+    "style": "outline"
+  },
+  {
+    "id": "more_horizontal",
+    "name": "More Horizontal",
+    "category": "01-navigation",
+    "svg": "svg/more_horizontal.svg",
+    "android": "android/more_horizontal.xml",
+    "style": "outline"
+  },
+  {
+    "id": "search",
+    "name": "Search",
+    "category": "02-topbar",
+    "svg": "svg/search.svg",
+    "android": "android/search.xml",
+    "style": "outline"
+  },
+  {
+    "id": "filter",
+    "name": "Filter",
+    "category": "02-topbar",
+    "svg": "svg/filter.svg",
+    "android": "android/filter.xml",
+    "style": "outline"
+  },
+  {
+    "id": "sort",
+    "name": "Sort",
+    "category": "02-topbar",
+    "svg": "svg/sort.svg",
+    "android": "android/sort.xml",
+    "style": "outline"
+  },
+  {
+    "id": "refresh",
+    "name": "Refresh",
+    "category": "02-topbar",
+    "svg": "svg/refresh.svg",
+    "android": "android/refresh.xml",
+    "style": "outline"
+  },
+  {
+    "id": "share",
+    "name": "Share",
+    "category": "02-topbar",
+    "svg": "svg/share.svg",
+    "android": "android/share.xml",
+    "style": "outline"
+  },
+  {
+    "id": "bookmark",
+    "name": "Bookmark",
+    "category": "02-topbar",
+    "svg": "svg/bookmark.svg",
+    "android": "android/bookmark.xml",
+    "style": "outline"
+  },
+  {
+    "id": "pin",
+    "name": "Pin",
+    "category": "02-topbar",
+    "svg": "svg/pin.svg",
+    "android": "android/pin.xml",
+    "style": "outline"
+  },
+  {
+    "id": "edit",
+    "name": "Edit",
+    "category": "02-topbar",
+    "svg": "svg/edit.svg",
+    "android": "android/edit.xml",
+    "style": "outline"
+  },
+  {
+    "id": "calendar",
+    "name": "Calendar",
+    "category": "02-topbar",
+    "svg": "svg/calendar.svg",
+    "android": "android/calendar.xml",
+    "style": "outline"
+  },
+  {
+    "id": "notification",
+    "name": "Notification",
+    "category": "02-topbar",
+    "svg": "svg/notification.svg",
+    "android": "android/notification.xml",
+    "style": "outline"
+  },
+  {
+    "id": "add",
+    "name": "Add",
+    "category": "03-actions",
+    "svg": "svg/add.svg",
+    "android": "android/add.xml",
+    "style": "outline"
+  },
+  {
+    "id": "remove",
+    "name": "Remove",
+    "category": "03-actions",
+    "svg": "svg/remove.svg",
+    "android": "android/remove.xml",
+    "style": "outline"
+  },
+  {
+    "id": "check",
+    "name": "Check",
+    "category": "03-actions",
+    "svg": "svg/check.svg",
+    "android": "android/check.xml",
+    "style": "outline"
+  },
+  {
+    "id": "download",
+    "name": "Download",
+    "category": "03-actions",
+    "svg": "svg/download.svg",
+    "android": "android/download.xml",
+    "style": "outline"
+  },
+  {
+    "id": "upload",
+    "name": "Upload",
+    "category": "03-actions",
+    "svg": "svg/upload.svg",
+    "android": "android/upload.xml",
+    "style": "outline"
+  },
+  {
+    "id": "send",
+    "name": "Send",
+    "category": "03-actions",
+    "svg": "svg/send.svg",
+    "android": "android/send.xml",
+    "style": "outline"
+  },
+  {
+    "id": "play",
+    "name": "Play",
+    "category": "03-actions",
+    "svg": "svg/play.svg",
+    "android": "android/play.xml",
+    "style": "accent-filled"
+  },
+  {
+    "id": "pause",
+    "name": "Pause",
+    "category": "03-actions",
+    "svg": "svg/pause.svg",
+    "android": "android/pause.xml",
+    "style": "outline"
+  },
+  {
+    "id": "stop",
+    "name": "Stop",
+    "category": "03-actions",
+    "svg": "svg/stop.svg",
+    "android": "android/stop.xml",
+    "style": "accent-filled"
+  },
+  {
+    "id": "scan",
+    "name": "Scan",
+    "category": "03-actions",
+    "svg": "svg/scan.svg",
+    "android": "android/scan.xml",
+    "style": "outline"
+  },
+  {
+    "id": "home",
+    "name": "Home",
+    "category": "04-content",
+    "svg": "svg/home.svg",
+    "android": "android/home.xml",
+    "style": "outline"
+  },
+  {
+    "id": "folder",
+    "name": "Folder",
+    "category": "04-content",
+    "svg": "svg/folder.svg",
+    "android": "android/folder.xml",
+    "style": "outline"
+  },
+  {
+    "id": "file",
+    "name": "File",
+    "category": "04-content",
+    "svg": "svg/file.svg",
+    "android": "android/file.xml",
+    "style": "outline"
+  },
+  {
+    "id": "image",
+    "name": "Image",
+    "category": "04-content",
+    "svg": "svg/image.svg",
+    "android": "android/image.xml",
+    "style": "outline"
+  },
+  {
+    "id": "video",
+    "name": "Video",
+    "category": "04-content",
+    "svg": "svg/video.svg",
+    "android": "android/video.xml",
+    "style": "outline"
+  },
+  {
+    "id": "audio",
+    "name": "Audio",
+    "category": "04-content",
+    "svg": "svg/audio.svg",
+    "android": "android/audio.xml",
+    "style": "outline"
+  },
+  {
+    "id": "link",
+    "name": "Link",
+    "category": "04-content",
+    "svg": "svg/link.svg",
+    "android": "android/link.xml",
+    "style": "outline"
+  },
+  {
+    "id": "tag",
+    "name": "Tag",
+    "category": "04-content",
+    "svg": "svg/tag.svg",
+    "android": "android/tag.xml",
+    "style": "outline"
+  },
+  {
+    "id": "bookmark_filled",
+    "name": "Bookmark Filled",
+    "category": "04-content",
+    "svg": "svg/bookmark_filled.svg",
+    "android": "android/bookmark_filled.xml",
+    "style": "accent-filled"
+  },
+  {
+    "id": "location",
+    "name": "Location",
+    "category": "04-content",
+    "svg": "svg/location.svg",
+    "android": "android/location.xml",
+    "style": "outline"
+  },
+  {
+    "id": "person",
+    "name": "Person",
+    "category": "05-account",
+    "svg": "svg/person.svg",
+    "android": "android/person.xml",
+    "style": "outline"
+  },
+  {
+    "id": "people",
+    "name": "People",
+    "category": "05-account",
+    "svg": "svg/people.svg",
+    "android": "android/people.xml",
+    "style": "outline"
+  },
+  {
+    "id": "login",
+    "name": "Login",
+    "category": "05-account",
+    "svg": "svg/login.svg",
+    "android": "android/login.xml",
+    "style": "outline"
+  },
+  {
+    "id": "logout",
+    "name": "Logout",
+    "category": "05-account",
+    "svg": "svg/logout.svg",
+    "android": "android/logout.xml",
+    "style": "outline"
+  },
+  {
+    "id": "lock",
+    "name": "Lock",
+    "category": "05-account",
+    "svg": "svg/lock.svg",
+    "android": "android/lock.xml",
+    "style": "outline"
+  },
+  {
+    "id": "unlock",
+    "name": "Unlock",
+    "category": "05-account",
+    "svg": "svg/unlock.svg",
+    "android": "android/unlock.xml",
+    "style": "outline"
+  },
+  {
+    "id": "key",
+    "name": "Key",
+    "category": "05-account",
+    "svg": "svg/key.svg",
+    "android": "android/key.xml",
+    "style": "outline"
+  },
+  {
+    "id": "verified",
+    "name": "Verified",
+    "category": "05-account",
+    "svg": "svg/verified.svg",
+    "android": "android/verified.xml",
+    "style": "accent-filled"
+  },
+  {
+    "id": "visibility",
+    "name": "Visibility",
+    "category": "05-account",
+    "svg": "svg/visibility.svg",
+    "android": "android/visibility.xml",
+    "style": "outline"
+  },
+  {
+    "id": "visibility_off",
+    "name": "Visibility Off",
+    "category": "05-account",
+    "svg": "svg/visibility_off.svg",
+    "android": "android/visibility_off.xml",
+    "style": "outline"
+  },
+  {
+    "id": "settings",
+    "name": "Settings",
+    "category": "06-settings",
+    "svg": "svg/settings.svg",
+    "android": "android/settings.xml",
+    "style": "outline"
+  },
+  {
+    "id": "sliders",
+    "name": "Sliders",
+    "category": "06-settings",
+    "svg": "svg/sliders.svg",
+    "android": "android/sliders.xml",
+    "style": "outline"
+  },
+  {
+    "id": "palette",
+    "name": "Palette",
+    "category": "06-settings",
+    "svg": "svg/palette.svg",
+    "android": "android/palette.xml",
+    "style": "outline"
+  },
+  {
+    "id": "language",
+    "name": "Language",
+    "category": "06-settings",
+    "svg": "svg/language.svg",
+    "android": "android/language.xml",
+    "style": "outline"
+  },
+  {
+    "id": "dark_mode",
+    "name": "Dark Mode",
+    "category": "06-settings",
+    "svg": "svg/dark_mode.svg",
+    "android": "android/dark_mode.xml",
+    "style": "outline"
+  },
+  {
+    "id": "light_mode",
+    "name": "Light Mode",
+    "category": "06-settings",
+    "svg": "svg/light_mode.svg",
+    "android": "android/light_mode.xml",
+    "style": "outline"
+  },
+  {
+    "id": "wifi",
+    "name": "Wifi",
+    "category": "06-settings",
+    "svg": "svg/wifi.svg",
+    "android": "android/wifi.xml",
+    "style": "outline"
+  },
+  {
+    "id": "bluetooth",
+    "name": "Bluetooth",
+    "category": "06-settings",
+    "svg": "svg/bluetooth.svg",
+    "android": "android/bluetooth.xml",
+    "style": "outline"
+  },
+  {
+    "id": "storage",
+    "name": "Storage",
+    "category": "06-settings",
+    "svg": "svg/storage.svg",
+    "android": "android/storage.xml",
+    "style": "outline"
+  },
+  {
+    "id": "security",
+    "name": "Security",
+    "category": "06-settings",
+    "svg": "svg/security.svg",
+    "android": "android/security.xml",
+    "style": "outline"
+  },
+  {
+    "id": "support",
+    "name": "Support",
+    "category": "07-service",
+    "svg": "svg/support.svg",
+    "android": "android/support.xml",
+    "style": "outline"
+  },
+  {
+    "id": "help",
+    "name": "Help",
+    "category": "07-service",
+    "svg": "svg/help.svg",
+    "android": "android/help.xml",
+    "style": "outline"
+  },
+  {
+    "id": "info",
+    "name": "Info",
+    "category": "07-service",
+    "svg": "svg/info.svg",
+    "android": "android/info.xml",
+    "style": "outline"
+  },
+  {
+    "id": "warning",
+    "name": "Warning",
+    "category": "07-service",
+    "svg": "svg/warning.svg",
+    "android": "android/warning.xml",
+    "style": "outline"
+  },
+  {
+    "id": "error",
+    "name": "Error",
+    "category": "07-service",
+    "svg": "svg/error.svg",
+    "android": "android/error.xml",
+    "style": "outline"
+  },
+  {
+    "id": "success",
+    "name": "Success",
+    "category": "07-service",
+    "svg": "svg/success.svg",
+    "android": "android/success.xml",
+    "style": "accent-filled"
+  },
+  {
+    "id": "timer",
+    "name": "Timer",
+    "category": "07-service",
+    "svg": "svg/timer.svg",
+    "android": "android/timer.xml",
+    "style": "outline"
+  },
+  {
+    "id": "cloud",
+    "name": "Cloud",
+    "category": "07-service",
+    "svg": "svg/cloud.svg",
+    "android": "android/cloud.xml",
+    "style": "outline"
+  },
+  {
+    "id": "sync",
+    "name": "Sync",
+    "category": "07-service",
+    "svg": "svg/sync.svg",
+    "android": "android/sync.xml",
+    "style": "outline"
+  },
+  {
+    "id": "qr_code",
+    "name": "Qr Code",
+    "category": "07-service",
+    "svg": "svg/qr_code.svg",
+    "android": "android/qr_code.xml",
+    "style": "outline"
+  },
+  {
+    "id": "cart",
+    "name": "Cart",
+    "category": "08-commerce",
+    "svg": "svg/cart.svg",
+    "android": "android/cart.xml",
+    "style": "outline"
+  },
+  {
+    "id": "bag",
+    "name": "Bag",
+    "category": "08-commerce",
+    "svg": "svg/bag.svg",
+    "android": "android/bag.xml",
+    "style": "outline"
+  },
+  {
+    "id": "card",
+    "name": "Card",
+    "category": "08-commerce",
+    "svg": "svg/card.svg",
+    "android": "android/card.xml",
+    "style": "outline"
+  },
+  {
+    "id": "receipt",
+    "name": "Receipt",
+    "category": "08-commerce",
+    "svg": "svg/receipt.svg",
+    "android": "android/receipt.xml",
+    "style": "outline"
+  },
+  {
+    "id": "wallet",
+    "name": "Wallet",
+    "category": "08-commerce",
+    "svg": "svg/wallet.svg",
+    "android": "android/wallet.xml",
+    "style": "outline"
+  },
+  {
+    "id": "percent",
+    "name": "Percent",
+    "category": "08-commerce",
+    "svg": "svg/percent.svg",
+    "android": "android/percent.xml",
+    "style": "outline"
+  },
+  {
+    "id": "gift",
+    "name": "Gift",
+    "category": "08-commerce",
+    "svg": "svg/gift.svg",
+    "android": "android/gift.xml",
+    "style": "outline"
+  },
+  {
+    "id": "truck",
+    "name": "Truck",
+    "category": "08-commerce",
+    "svg": "svg/truck.svg",
+    "android": "android/truck.xml",
+    "style": "outline"
+  },
+  {
+    "id": "box",
+    "name": "Box",
+    "category": "08-commerce",
+    "svg": "svg/box.svg",
+    "android": "android/box.xml",
+    "style": "outline"
+  },
+  {
+    "id": "heart",
+    "name": "Heart",
+    "category": "08-commerce",
+    "svg": "svg/heart.svg",
+    "android": "android/heart.xml",
+    "style": "accent-filled"
+  },
+  {
+    "id": "camera",
+    "name": "Camera",
+    "category": "09-media",
+    "svg": "svg/camera.svg",
+    "android": "android/camera.xml",
+    "style": "outline"
+  },
+  {
+    "id": "mic",
+    "name": "Mic",
+    "category": "09-media",
+    "svg": "svg/mic.svg",
+    "android": "android/mic.xml",
+    "style": "outline"
+  },
+  {
+    "id": "volume",
+    "name": "Volume",
+    "category": "09-media",
+    "svg": "svg/volume.svg",
+    "android": "android/volume.xml",
+    "style": "outline"
+  },
+  {
+    "id": "volume_off",
+    "name": "Volume Off",
+    "category": "09-media",
+    "svg": "svg/volume_off.svg",
+    "android": "android/volume_off.xml",
+    "style": "outline"
+  },
+  {
+    "id": "music",
+    "name": "Music",
+    "category": "09-media",
+    "svg": "svg/music.svg",
+    "android": "android/music.xml",
+    "style": "outline"
+  },
+  {
+    "id": "filter_image",
+    "name": "Filter Image",
+    "category": "09-media",
+    "svg": "svg/filter_image.svg",
+    "android": "android/filter_image.xml",
+    "style": "outline"
+  },
+  {
+    "id": "crop",
+    "name": "Crop",
+    "category": "09-media",
+    "svg": "svg/crop.svg",
+    "android": "android/crop.xml",
+    "style": "outline"
+  },
+  {
+    "id": "zoom_in",
+    "name": "Zoom In",
+    "category": "09-media",
+    "svg": "svg/zoom_in.svg",
+    "android": "android/zoom_in.xml",
+    "style": "outline"
+  },
+  {
+    "id": "zoom_out",
+    "name": "Zoom Out",
+    "category": "09-media",
+    "svg": "svg/zoom_out.svg",
+    "android": "android/zoom_out.xml",
+    "style": "outline"
+  },
+  {
+    "id": "fullscreen",
+    "name": "Fullscreen",
+    "category": "09-media",
+    "svg": "svg/fullscreen.svg",
+    "android": "android/fullscreen.xml",
+    "style": "outline"
+  },
+  {
+    "id": "battery",
+    "name": "Battery",
+    "category": "10-status",
+    "svg": "svg/battery.svg",
+    "android": "android/battery.xml",
+    "style": "outline"
+  },
+  {
+    "id": "signal",
+    "name": "Signal",
+    "category": "10-status",
+    "svg": "svg/signal.svg",
+    "android": "android/signal.xml",
+    "style": "outline"
+  },
+  {
+    "id": "location_on",
+    "name": "Location On",
+    "category": "10-status",
+    "svg": "svg/location_on.svg",
+    "android": "android/location_on.xml",
+    "style": "accent-filled"
+  },
+  {
+    "id": "lock_status",
+    "name": "Lock Status",
+    "category": "10-status",
+    "svg": "svg/lock_status.svg",
+    "android": "android/lock_status.xml",
+    "style": "outline"
+  },
+  {
+    "id": "loading",
+    "name": "Loading",
+    "category": "10-status",
+    "svg": "svg/loading.svg",
+    "android": "android/loading.xml",
+    "style": "outline"
+  },
+  {
+    "id": "dashboard",
+    "name": "Dashboard",
+    "category": "10-status",
+    "svg": "svg/dashboard.svg",
+    "android": "android/dashboard.xml",
+    "style": "outline"
+  },
+  {
+    "id": "chart",
+    "name": "Chart",
+    "category": "10-status",
+    "svg": "svg/chart.svg",
+    "android": "android/chart.xml",
+    "style": "outline"
+  },
+  {
+    "id": "flash",
+    "name": "Flash",
+    "category": "10-status",
+    "svg": "svg/flash.svg",
+    "android": "android/flash.xml",
+    "style": "accent-filled"
+  },
+  {
+    "id": "rocket",
+    "name": "Rocket",
+    "category": "10-status",
+    "svg": "svg/rocket.svg",
+    "android": "android/rocket.xml",
+    "style": "outline"
+  },
+  {
+    "id": "spark",
+    "name": "Spark",
+    "category": "10-status",
+    "svg": "svg/spark.svg",
+    "android": "android/spark.xml",
+    "style": "accent-filled"
+  }
+]

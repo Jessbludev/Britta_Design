@@ -1,0 +1,100 @@
+{
+  "uniforms": {
+    "glsl": [
+      "u_resolution",
+      "u_time",
+      "u_primary",
+      "u_secondary",
+      "u_tertiary",
+      "u_surface",
+      "u_onSurface",
+      "u_container",
+      "u_mouse",
+      "u_intensity"
+    ],
+    "agsl": [
+      "size",
+      "time",
+      "primary",
+      "secondary",
+      "tertiary",
+      "surface",
+      "onSurface",
+      "container",
+      "mouse",
+      "intensity"
+    ]
+  },
+  "shaders": [
+    {
+      "id": "tonal-mesh",
+      "name": "Tonal mesh",
+      "blurb": "Four-stop mesh of primary, secondary, tertiary, and surface. The seed is the lighting.",
+      "use": "Hero surfaces, theme lab, empty states",
+      "interactive": false
+    },
+    {
+      "id": "paper-grain",
+      "name": "Paper grain",
+      "blurb": "Film grain on a tonal wash. Reads as paper, not noise-for-noise.",
+      "use": "Cards, sheets, long-form reading",
+      "interactive": false
+    },
+    {
+      "id": "elevation-light",
+      "name": "Elevation light",
+      "blurb": "M3 elevation as a lighting model: key from the top-left, tinted ambient, contact shade.",
+      "use": "Raised cards, FABs, modal sheets",
+      "interactive": false
+    },
+    {
+      "id": "aurora",
+      "name": "Aurora",
+      "blurb": "Slow seed-hue bands. Use on a hero, never as a full-page wallpaper.",
+      "use": "Landing heroes, splash, theme reveal",
+      "interactive": false
+    },
+    {
+      "id": "spotlight",
+      "name": "Spotlight",
+      "blurb": "Pointer-driven key light. Follows the cursor; falls back to a rest pose.",
+      "use": "Interactive cards, icon grids, hover chrome",
+      "interactive": true
+    },
+    {
+      "id": "iridescent",
+      "name": "Iridescent rim",
+      "blurb": "Spectral edge lighting that shifts with the seed. Think oil on water, not rainbow chrome.",
+      "use": "Selected chips, premium cards, icon tiles",
+      "interactive": false
+    },
+    {
+      "id": "halftone",
+      "name": "Halftone",
+      "blurb": "Print shading. Dot size follows a tonal ramp of the seed.",
+      "use": "Editorial posters, empty illustrations, print mocks",
+      "interactive": false
+    },
+    {
+      "id": "caustics",
+      "name": "Caustics",
+      "blurb": "Light through water, tinted with primary. Slow and shallow, not a lava lamp.",
+      "use": "Wellness, weather, liquid-glass surfaces",
+      "interactive": false
+    },
+    {
+      "id": "ripple",
+      "name": "Ripple field",
+      "blurb": "M3 state-layer ripple as a field. Click or rest on a breathing ring.",
+      "use": "Buttons, list items, touch feedback studies",
+      "interactive": true
+    },
+    {
+      "id": "dither",
+      "name": "Ordered dither",
+      "blurb": "Bayer 4×4 shading into two tonal roles. Print-room, not 8-bit nostalgia.",
+      "use": "Low-ink posters, data ink, reduced palettes",
+      "interactive": false
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+name: Merge confirmation
+
+on:
+  pull_request:
+    types: [opened, edited, synchronize, labeled, unlabeled]
+
+permissions:
+  pull-requests: read
+  contents: read
+
+jobs:
+  confirmation:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Require explicit ready-to-merge confirmation
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const pr = context.payload.pull_request;
+            const labels = pr.labels.map((label) => label.name);
+            const body = pr.body || "";
+            const confirmed = /\[x\]\s+\*\*Confirmo que este PR está listo para merge\.\*\*/i.test(body);
+            if (!labels.includes("ready-to-merge") || !confirmed) {
+              core.setFailed("Añade la etiqueta ready-to-merge y marca la confirmación explícita en la plantilla del PR.");
+            } else {
+              core.info("Confirmación explícita encontrada; merge permitido por este gate.");
+            }

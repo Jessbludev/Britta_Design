@@ -1,0 +1,25 @@
+uniform float2 size;
+uniform float time;
+uniform half4 primary;
+uniform half4 secondary;
+uniform half4 tertiary;
+uniform half4 surface;
+uniform half4 onSurface;
+uniform half4 container;
+uniform float2 mouse;
+uniform float intensity;
+
+half4 main(float2 fragCoord) {
+  float2 uv = fragCoord / size;
+  float2 p = (uv - 0.5) * float2(size.x / size.y, 1.0);
+  float3 N = normalize(float3(-p.x * 0.35, 0.85, 1.0 - length(p) * 0.4));
+  float3 L = normalize(float3(-0.45, 0.82, 0.55));
+  float diff = max(dot(N, L), 0.0);
+  float rim = pow(1.0 - max(N.z, 0.0), 2.2);
+  float ao = smoothstep(0.92, 0.15, length(p));
+  half3 ambient = mix(surface.rgb, container.rgb, 0.55);
+  half3 lit = ambient + primary.rgb * (diff * 0.38 * intensity);
+  lit += secondary.rgb * rim * 0.16 * intensity;
+  lit *= mix(0.82, 1.0, ao);
+  return half4(lit, 1.0);
+}

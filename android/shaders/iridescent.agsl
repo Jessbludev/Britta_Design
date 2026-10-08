@@ -1,0 +1,31 @@
+uniform float2 size;
+uniform float time;
+uniform half4 primary;
+uniform half4 secondary;
+uniform half4 tertiary;
+uniform half4 surface;
+uniform half4 onSurface;
+uniform half4 container;
+uniform float2 mouse;
+uniform float intensity;
+
+half3 hueShift(half3 c, float h) {
+  float a = h * 6.2831853;
+  float ca = cos(a);
+  float sa = sin(a);
+  half3 k = half3(0.57735, 0.57735, 0.57735);
+  return clamp(c * ca + cross(k, c) * sa + k * dot(k, c) * (1.0 - ca), 0.0, 1.0);
+}
+half4 main(float2 fragCoord) {
+  float2 uv = fragCoord / size;
+  float2 p = uv * 2.0 - 1.0;
+  p.x *= size.x / size.y;
+  float d = length(p);
+  float rim = smoothstep(0.92, 0.58, d) * smoothstep(0.42, 0.72, d);
+  float ang = atan(p.y, p.x) / 6.2831853 + time * 0.04;
+  half3 shift = hueShift(primary.rgb, fract(ang + d * 0.25));
+  half3 base = mix(surface.rgb, container.rgb, 0.5);
+  half3 col = mix(base, shift, rim * 0.85 * intensity);
+  col = mix(col, secondary.rgb, pow(rim, 3.0) * 0.25);
+  return half4(col, 1.0);
+}

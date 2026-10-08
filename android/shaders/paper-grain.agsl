@@ -1,0 +1,22 @@
+uniform float2 size;
+uniform float time;
+uniform half4 primary;
+uniform half4 secondary;
+uniform half4 tertiary;
+uniform half4 surface;
+uniform half4 onSurface;
+uniform half4 container;
+uniform float2 mouse;
+uniform float intensity;
+
+float hash(float2 p) { return fract(sin(dot(p, float2(127.1, 311.7))) * 43758.5453); }
+half4 main(float2 fragCoord) {
+  float2 uv = fragCoord / size;
+  half3 base = mix(surface.rgb, container.rgb, uv.y);
+  float n = hash(fragCoord + floor(time * 12.0));
+  float fine = hash(fragCoord * 1.7);
+  float grain = mix(n, fine, 0.45);
+  half3 col = base + (grain - 0.5) * 0.10 * intensity;
+  col = mix(col, primary.rgb, 0.03 * intensity);
+  return half4(col, 1.0);
+}

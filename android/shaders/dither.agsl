@@ -1,0 +1,43 @@
+uniform float2 size;
+uniform float time;
+uniform half4 primary;
+uniform half4 secondary;
+uniform half4 tertiary;
+uniform half4 surface;
+uniform half4 onSurface;
+uniform half4 container;
+uniform float2 mouse;
+uniform float intensity;
+
+float bayer(float2 p) {
+  float2 i = mod(floor(p), 4.0);
+  float idx = i.x + i.y * 4.0;
+  float v = 0.0;
+  if (idx < 0.5) v = 0.0;
+  else if (idx < 1.5) v = 8.0;
+  else if (idx < 2.5) v = 2.0;
+  else if (idx < 3.5) v = 10.0;
+  else if (idx < 4.5) v = 12.0;
+  else if (idx < 5.5) v = 4.0;
+  else if (idx < 6.5) v = 14.0;
+  else if (idx < 7.5) v = 6.0;
+  else if (idx < 8.5) v = 3.0;
+  else if (idx < 9.5) v = 11.0;
+  else if (idx < 10.5) v = 1.0;
+  else if (idx < 11.5) v = 9.0;
+  else if (idx < 12.5) v = 15.0;
+  else if (idx < 13.5) v = 7.0;
+  else if (idx < 14.5) v = 13.0;
+  else v = 5.0;
+  return v / 16.0;
+}
+half4 main(float2 fragCoord) {
+  float2 uv = fragCoord / size;
+  float tone = uv.x * 0.7 + uv.y * 0.3;
+  tone = mix(tone, 0.5 + 0.5 * sin(time * 0.3 + uv.x * 2.0), 0.12);
+  float t = tone * intensity + (1.0 - intensity) * 0.5;
+  float dith = step(bayer(fragCoord * 0.5), t);
+  half3 a = mix(surface.rgb, container.rgb, 0.2);
+  half3 b = mix(primary.rgb, onSurface.rgb, 0.15);
+  return half4(mix(a, b, dith), 1.0);
+}

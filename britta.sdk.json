@@ -1,0 +1,38 @@
+{
+  "name": "@britta/design",
+  "version": "0.2.0",
+  "description": "Cross-platform Britta Design System",
+  "platforms": [
+    "web",
+    "android"
+  ],
+  "sources": {
+    "tokens": "core/tokens/tokens.json",
+    "web": "src/britta",
+    "compose": "android/britta-compose",
+    "icons": "assets/icons",
+    "themes": "assets/themes"
+  },
+  "principles": [
+    "semantic tokens",
+    "named exports",
+    "tree-shaking",
+    "resource shrinking",
+    "optional shaders",
+    "immutable public API",
+    "fail-fast contracts",
+    "fail-safe optional effects",
+    "no reflection",
+    "no eager registration"
+  ],
+  "compose": {
+    "entrypoint": "com.britta.design.Britta",
+    "theme": "com.britta.design.BrittaTheme",
+    "rules": "docs/COMPOSE_API.md",
+    "packaging": "docs/SDK_PACKAGING.md",
+    "lazy": "reachability + R8 + resource shrinking",
+    "reflection": false,
+    "dynamic_registry": false,
+    "global_runtime_state": false
+  }
+}
