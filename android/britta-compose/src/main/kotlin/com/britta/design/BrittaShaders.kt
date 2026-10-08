@@ -9,7 +9,7 @@ import androidx.annotation.RequiresApi
  * Requires API 33+ (Android 13) RuntimeShader.
  */
 object BrittaShaders {
-    const val TONAL_MESH = """
+    val TONAL_MESH = """
 uniform float2 size;
 uniform float time;
 uniform half4 primary;
@@ -39,7 +39,7 @@ half4 main(float2 fragCoord) {
 
     """.trimIndent()
 
-    const val PAPER_GRAIN = """
+    val PAPER_GRAIN = """
 uniform float2 size;
 uniform float time;
 uniform half4 primary;
@@ -65,7 +65,7 @@ half4 main(float2 fragCoord) {
 
     """.trimIndent()
 
-    const val ELEVATION_LIGHT = """
+    val ELEVATION_LIGHT = """
 uniform float2 size;
 uniform float time;
 uniform half4 primary;
@@ -94,7 +94,7 @@ half4 main(float2 fragCoord) {
 
     """.trimIndent()
 
-    const val AURORA = """
+    val AURORA = """
 uniform float2 size;
 uniform float time;
 uniform half4 primary;
@@ -123,7 +123,7 @@ half4 main(float2 fragCoord) {
 
     """.trimIndent()
 
-    const val SPOTLIGHT = """
+    val SPOTLIGHT = """
 uniform float2 size;
 uniform float time;
 uniform half4 primary;
@@ -149,7 +149,7 @@ half4 main(float2 fragCoord) {
 
     """.trimIndent()
 
-    const val IRIDESCENT = """
+    val IRIDESCENT = """
 uniform float2 size;
 uniform float time;
 uniform half4 primary;
@@ -184,7 +184,7 @@ half4 main(float2 fragCoord) {
 
     """.trimIndent()
 
-    const val HALFTONE = """
+    val HALFTONE = """
 uniform float2 size;
 uniform float time;
 uniform half4 primary;
@@ -213,7 +213,7 @@ half4 main(float2 fragCoord) {
 
     """.trimIndent()
 
-    const val CAUSTICS = """
+    val CAUSTICS = """
 uniform float2 size;
 uniform float time;
 uniform half4 primary;
@@ -243,7 +243,7 @@ half4 main(float2 fragCoord) {
 
     """.trimIndent()
 
-    const val RIPPLE = """
+    val RIPPLE = """
 uniform float2 size;
 uniform float time;
 uniform half4 primary;
@@ -271,7 +271,7 @@ half4 main(float2 fragCoord) {
 
     """.trimIndent()
 
-    const val DITHER = """
+    val DITHER = """
 uniform float2 size;
 uniform float time;
 uniform half4 primary;
