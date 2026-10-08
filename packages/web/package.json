@@ -1,0 +1,19 @@
+{
+  "name": "@jessbludev/britta-design-web",
+  "version": "0.3.0",
+  "description": "Britta Design icons, themes, tokens and font assets for Web/React",
+  "license": "MIT",
+  "type": "module",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": { "types": "./index.d.ts", "import": "./index.js" },
+    "./assets/*": "./assets/*",
+    "./styles/*": "./styles/*"
+  },
+  "files": ["index.js", "index.d.ts", "README.md", "assets", "styles"],
+  "publishConfig": { "registry": "https://npm.pkg.github.com" },
+  "repository": { "type": "git", "url": "https://github.com/Jessbludev/Britta_Design.git" },
+  "sideEffects": ["*.css"],
+  "engines": { "node": ">=20" }
+}

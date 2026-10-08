@@ -1,0 +1,48 @@
+name: Publish packages
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: read
+  packages: write
+
+concurrency:
+  group: publish-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  web:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          registry-url: https://npm.pkg.github.com
+          scope: "@jessbludev"
+      - run: npm ci
+      - run: npm run validate:sdk
+      - name: Set package version from release tag
+        run: npm version --no-git-tag-version "${GITHUB_REF_NAME#v}" --prefix packages/web
+      - run: npm run pack:web
+      - run: npm publish ./jessbludev-britta-design-web-*.tgz
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  android:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: "8.10"
+      - run: gradle -p android :britta-compose:publishReleasePublicationToGitHubPackagesRepository --no-daemon -PGROUP=com.jessbludev.britta -PVERSION_NAME=${GITHUB_REF_NAME#v}
+        env:
+          GITHUB_ACTOR: ${{ github.actor }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

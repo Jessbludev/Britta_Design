@@ -20,6 +20,8 @@
     "lint": "eslint .",
     "format": "prettier --write .",
     "generate:britta": "node --experimental-strip-types scripts/generate-britta.mjs",
+    "prepare:web-package": "node scripts/prepare-web-package.mjs",
+    "pack:web": "npm run prepare:web-package && npm pack ./packages/web",
     "validate:icons": "node --input-type=module -e \"import fs from 'node:fs'; const c=JSON.parse(fs.readFileSync('assets/icons/icon-catalog.json','utf8')); if(c.length!==100) throw new Error('Icon catalog mismatch'); console.log('IconForge: 100 icons')\"",
     "validate:sdk": "node scripts/validate-sdk.mjs",
     "check": "npm run validate:sdk && npm run typecheck && npm run test:sdk",

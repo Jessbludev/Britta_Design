@@ -16,3 +16,6 @@ android/.cxx/
 !.env.example
 
 .vercel/
+packages/web/assets/
+packages/web/styles/
+*.tgz

@@ -1,0 +1,31 @@
+name: Security policy checks
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  policy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Reject committed secret-like files
+        shell: bash
+        run: |
+          set -euo pipefail
+          if find . -path './.git' -prune -o -type f \( -name '.env' -o -name '*.pem' -o -name '*.key' \) -print | grep -q .; then
+            echo 'Secret-like file found in repository' >&2
+            exit 1
+          fi
+      - name: Enforce zero telemetry markers in packages
+        shell: bash
+        run: |
+          set -euo pipefail
+          if grep -RInE 'google-analytics|segment\.com|mixpanel|posthog|sentry\.io|opentelemetry' packages assets web android 2>/dev/null; then
+            echo 'Telemetry marker found in distributable sources' >&2
+            exit 1
+          fi
