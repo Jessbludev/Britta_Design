@@ -2,7 +2,7 @@
   "name": "@jessbludev/britta-design-web",
   "version": "0.3.0",
   "description": "Britta Design icons, themes, tokens and font assets for Web/React",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "type": "module",
   "main": "./index.js",
   "types": "./index.d.ts",
