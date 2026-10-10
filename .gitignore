@@ -18,4 +18,5 @@ android/.cxx/
 .vercel/
 packages/web/assets/
 packages/web/styles/
+packages/web/LICENSE
 *.tgz

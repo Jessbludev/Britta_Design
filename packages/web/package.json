@@ -7,11 +7,11 @@
   "main": "./index.js",
   "types": "./index.d.ts",
   "exports": {
-    ".": { "types": "./index.d.ts", "import": "./index.js" },
+    ".": { "types": "./index.d.ts", "import": "./index.js", "default": "./index.js" },
     "./assets/*": "./assets/*",
     "./styles/*": "./styles/*"
   },
-  "files": ["index.js", "index.d.ts", "README.md", "assets", "styles"],
+  "files": ["index.js", "index.d.ts", "README.md", "LICENSE", "assets", "styles"],
   "publishConfig": { "registry": "https://npm.pkg.github.com" },
   "repository": { "type": "git", "url": "https://github.com/Jessbludev/Britta_Design.git" },
   "sideEffects": ["*.css"],

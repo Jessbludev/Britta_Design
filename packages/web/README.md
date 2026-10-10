@@ -12,3 +12,7 @@ import { iconCatalogUrl, themeCatalogUrl, iconFontCssUrl } from "@jessbludev/bri
 ```
 
 El paquete no registra telemetría, no hace llamadas de red y no emite logs.
+
+## Licencia
+
+Este paquete se distribuye bajo **Apache License 2.0**. Consulta el archivo `LICENSE` incluido en el paquete.

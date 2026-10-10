@@ -16,4 +16,5 @@ fs.copyFileSync(path.join(root, "web/tokens.css"), path.join(out, "styles/tokens
 fs.copyFileSync(path.join(root, "web/britta.css"), path.join(out, "styles/britta.css"));
 fs.copyFileSync(path.join(root, "web/fonts/iconforge.css"), path.join(out, "styles/iconforge.css"));
 copy(path.join(root, "web/fonts/IconForge.woff2"), path.join(out, "styles/IconForge.woff2"));
+fs.copyFileSync(path.join(root, "LICENSE"), path.join(out, "LICENSE"));
 console.log("Web package prepared");
